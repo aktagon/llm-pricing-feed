@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/meta-llama/llama-prompt-guard-2-22m",
+    "digest": "2e4b156660410144",
+    "record": {
+      "id": "groq/meta-llama/llama-prompt-guard-2-22m",
+      "provider": "groq",
+      "model": "meta-llama/llama-prompt-guard-2-22m",
+      "kind": "chat",
+      "effective_date": "2025-05-29",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.03,
+      "output": 0.03,
+      "context_window": 512,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+    "digest": "ab6de6126e11b4b2",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "kind": "chat",
+      "effective_date": "2026-06-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.9,
+      "output": 8,
+      "cache_read": 0.38,
+      "context_window": 262000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

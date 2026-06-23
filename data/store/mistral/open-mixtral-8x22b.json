@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/open-mixtral-8x22b",
+    "digest": "e381b17c958262e0",
+    "record": {
+      "id": "mistral/open-mixtral-8x22b",
+      "provider": "mistral",
+      "model": "open-mixtral-8x22b",
+      "kind": "chat",
+      "effective_date": "2024-04-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 6,
+      "context_window": 64000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

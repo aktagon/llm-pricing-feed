@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+    "digest": "be8ba5ffab5a12f6",
+    "record": {
+      "id": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "kind": "chat",
+      "effective_date": "2025-04-05",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.11,
+      "output": 0.34,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

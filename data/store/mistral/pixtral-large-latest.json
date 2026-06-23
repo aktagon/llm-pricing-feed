@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/pixtral-large-latest",
+    "digest": "a7f14808b1e35378",
+    "record": {
+      "id": "mistral/pixtral-large-latest",
+      "provider": "mistral",
+      "model": "pixtral-large-latest",
+      "kind": "chat",
+      "effective_date": "2024-11-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 6,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

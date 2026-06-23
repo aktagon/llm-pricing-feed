@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+    "digest": "87761666d6379df6",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/qwen3p7-plus",
+      "kind": "chat",
+      "effective_date": "2026-06-12",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.4,
+      "output": 1.6,
+      "cache_read": 0.08,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

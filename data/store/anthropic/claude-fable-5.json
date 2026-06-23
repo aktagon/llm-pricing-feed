@@ -1,0 +1,21 @@
+[
+  {
+    "key": "anthropic/claude-fable-5",
+    "digest": "31e672331a404ffd",
+    "record": {
+      "id": "anthropic/claude-fable-5",
+      "provider": "anthropic",
+      "model": "claude-fable-5",
+      "kind": "chat",
+      "effective_date": "2026-06-09",
+      "source_url": "https://models.dev/api.json",
+      "input": 10,
+      "output": 50,
+      "cache_read": 1,
+      "cache_write_5m": 12.5,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

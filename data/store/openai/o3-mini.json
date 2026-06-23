@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/o3-mini",
+    "digest": "4def4fbb970990a2",
+    "record": {
+      "id": "openai/o3-mini",
+      "provider": "openai",
+      "model": "o3-mini",
+      "kind": "chat",
+      "effective_date": "2025-01-29",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.1,
+      "output": 4.4,
+      "cache_read": 0.55,
+      "context_window": 200000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

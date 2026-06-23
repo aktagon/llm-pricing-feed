@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/magistral-small",
+    "digest": "3af16bfdc2b29216",
+    "record": {
+      "id": "mistral/magistral-small",
+      "provider": "mistral",
+      "model": "magistral-small",
+      "kind": "chat",
+      "effective_date": "2025-03-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.5,
+      "output": 1.5,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

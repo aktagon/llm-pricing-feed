@@ -1,0 +1,144 @@
+{
+  "observed_at": "2026-06-23T13:31:24.070Z",
+  "snapshot_date": "2026-06-23",
+  "ingest_rejected_count": 15,
+  "quarantined_count": 0,
+  "ingest_rejections": [
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-image-quality",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-image",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "whisper-large-v3-turbo",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "whisper-large-v3",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-v1-english",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-arabic-saudi",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "groq/compound",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "groq/compound-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    }
+  ],
+  "quarantined": []
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/minimaxai/minimax-m2.7",
+    "digest": "96354e3f341ab401",
+    "record": {
+      "id": "togetherai/minimaxai/minimax-m2.7",
+      "provider": "togetherai",
+      "model": "minimaxai/minimax-m2.7",
+      "kind": "chat",
+      "effective_date": "2026-03-18",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 1.2,
+      "cache_read": 0.06,
+      "context_window": 202752,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

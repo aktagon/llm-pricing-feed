@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
+    "digest": "6a749b1130b964e8",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/gpt-oss-120b",
+      "kind": "chat",
+      "effective_date": "2026-06-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

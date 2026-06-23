@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/gpt-4o-mini",
+    "digest": "220fbb9684614636",
+    "record": {
+      "id": "openai/gpt-4o-mini",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "kind": "chat",
+      "effective_date": "2024-07-18",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.075,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

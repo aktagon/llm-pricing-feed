@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+    "digest": "de906fed5e333c91",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/kimi-k2p6",
+      "kind": "chat",
+      "effective_date": "2026-04-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.95,
+      "output": 4,
+      "cache_read": 0.16,
+      "context_window": 262000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

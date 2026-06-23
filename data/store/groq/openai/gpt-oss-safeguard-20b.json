@@ -1,0 +1,20 @@
+[
+  {
+    "key": "groq/openai/gpt-oss-safeguard-20b",
+    "digest": "372e1285686b0149",
+    "record": {
+      "id": "groq/openai/gpt-oss-safeguard-20b",
+      "provider": "groq",
+      "model": "openai/gpt-oss-safeguard-20b",
+      "kind": "chat",
+      "effective_date": "2025-10-29",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.075,
+      "output": 0.3,
+      "cache_read": 0.037,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/qwen/qwen3-coder-next-fp8",
+    "digest": "58d3ea44425c68a5",
+    "record": {
+      "id": "togetherai/qwen/qwen3-coder-next-fp8",
+      "provider": "togetherai",
+      "model": "qwen/qwen3-coder-next-fp8",
+      "kind": "chat",
+      "effective_date": "2026-02-03",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.5,
+      "output": 1.2,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

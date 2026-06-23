@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/gpt-5.4",
+    "digest": "87c5cc781943aac7",
+    "record": {
+      "id": "openai/gpt-5.4",
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "kind": "chat",
+      "effective_date": "2026-03-05",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.5,
+      "output": 15,
+      "cache_read": 0.25,
+      "context_window": 1050000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

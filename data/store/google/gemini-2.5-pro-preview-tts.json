@@ -1,0 +1,19 @@
+[
+  {
+    "key": "google/gemini-2.5-pro-preview-tts",
+    "digest": "b19a37dcf179471b",
+    "record": {
+      "id": "google/gemini-2.5-pro-preview-tts",
+      "provider": "google",
+      "model": "gemini-2.5-pro-preview-tts",
+      "kind": "chat",
+      "effective_date": "2025-05-01",
+      "source_url": "https://models.dev/api.json",
+      "input": 1,
+      "output": 20,
+      "context_window": 8192,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

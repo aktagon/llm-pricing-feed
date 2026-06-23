@@ -1,0 +1,20 @@
+[
+  {
+    "key": "groq/openai/gpt-oss-120b",
+    "digest": "1f8cf613a2f2e5b6",
+    "record": {
+      "id": "groq/openai/gpt-oss-120b",
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "kind": "chat",
+      "effective_date": "2025-10-21",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.075,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

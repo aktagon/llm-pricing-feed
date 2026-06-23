@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/google/gemma-3n-e4b-it",
+    "digest": "16eeb636995501e9",
+    "record": {
+      "id": "togetherai/google/gemma-3n-e4b-it",
+      "provider": "togetherai",
+      "model": "google/gemma-3n-e4b-it",
+      "kind": "chat",
+      "effective_date": "2025-05-20",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.06,
+      "output": 0.12,
+      "context_window": 32768,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

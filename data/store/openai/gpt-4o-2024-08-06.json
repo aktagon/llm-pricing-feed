@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/gpt-4o-2024-08-06",
+    "digest": "b92ad9b584115dea",
+    "record": {
+      "id": "openai/gpt-4o-2024-08-06",
+      "provider": "openai",
+      "model": "gpt-4o-2024-08-06",
+      "kind": "chat",
+      "effective_date": "2024-08-06",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.5,
+      "output": 10,
+      "cache_read": 1.25,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

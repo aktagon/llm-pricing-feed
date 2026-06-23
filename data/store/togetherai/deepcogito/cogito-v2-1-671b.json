@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/deepcogito/cogito-v2-1-671b",
+    "digest": "170be1601fc8ff0",
+    "record": {
+      "id": "togetherai/deepcogito/cogito-v2-1-671b",
+      "provider": "togetherai",
+      "model": "deepcogito/cogito-v2-1-671b",
+      "kind": "chat",
+      "effective_date": "2025-11-13",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.25,
+      "output": 1.25,
+      "context_window": 163840,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

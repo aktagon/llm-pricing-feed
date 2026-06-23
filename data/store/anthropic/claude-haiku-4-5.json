@@ -1,0 +1,21 @@
+[
+  {
+    "key": "anthropic/claude-haiku-4-5",
+    "digest": "4a8c8ca2154181d5",
+    "record": {
+      "id": "anthropic/claude-haiku-4-5",
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5",
+      "kind": "chat",
+      "effective_date": "2025-10-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 1,
+      "output": 5,
+      "cache_read": 0.1,
+      "cache_write_5m": 1.25,
+      "context_window": 200000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/llama-3.1-8b-instant",
+    "digest": "9bebe775cf7898ee",
+    "record": {
+      "id": "groq/llama-3.1-8b-instant",
+      "provider": "groq",
+      "model": "llama-3.1-8b-instant",
+      "kind": "chat",
+      "effective_date": "2024-07-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.05,
+      "output": 0.08,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

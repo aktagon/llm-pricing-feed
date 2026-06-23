@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/openai/gpt-oss-20b",
+    "digest": "e1d7d84f2fa1c76f",
+    "record": {
+      "id": "togetherai/openai/gpt-oss-20b",
+      "provider": "togetherai",
+      "model": "openai/gpt-oss-20b",
+      "kind": "chat",
+      "effective_date": "2025-08-05",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.05,
+      "output": 0.2,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

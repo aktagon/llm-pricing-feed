@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/devstral-medium-2507",
+    "digest": "bc95ff740ad38bc6",
+    "record": {
+      "id": "mistral/devstral-medium-2507",
+      "provider": "mistral",
+      "model": "devstral-medium-2507",
+      "kind": "chat",
+      "effective_date": "2025-07-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.4,
+      "output": 2,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

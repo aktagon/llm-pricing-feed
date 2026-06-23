@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/llama-3.3-70b-versatile",
+    "digest": "114ff812da941d33",
+    "record": {
+      "id": "groq/llama-3.3-70b-versatile",
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "kind": "chat",
+      "effective_date": "2024-12-06",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.59,
+      "output": 0.79,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

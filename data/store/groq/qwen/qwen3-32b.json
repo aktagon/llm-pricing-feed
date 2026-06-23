@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/qwen/qwen3-32b",
+    "digest": "eaa0fdd752fef5fc",
+    "record": {
+      "id": "groq/qwen/qwen3-32b",
+      "provider": "groq",
+      "model": "qwen/qwen3-32b",
+      "kind": "chat",
+      "effective_date": "2025-06-12",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.29,
+      "output": 0.59,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

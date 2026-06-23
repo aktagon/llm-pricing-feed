@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/codestral-latest",
+    "digest": "5c9fdcae33eb23f5",
+    "record": {
+      "id": "mistral/codestral-latest",
+      "provider": "mistral",
+      "model": "codestral-latest",
+      "kind": "chat",
+      "effective_date": "2025-01-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 0.9,
+      "context_window": 256000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

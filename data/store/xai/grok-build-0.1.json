@@ -1,0 +1,20 @@
+[
+  {
+    "key": "xai/grok-build-0.1",
+    "digest": "63c4200d416e652e",
+    "record": {
+      "id": "xai/grok-build-0.1",
+      "provider": "xai",
+      "model": "grok-build-0.1",
+      "kind": "chat",
+      "effective_date": "2026-04-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.2,
+      "context_window": 256000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

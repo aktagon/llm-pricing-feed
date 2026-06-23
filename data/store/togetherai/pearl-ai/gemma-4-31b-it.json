@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/pearl-ai/gemma-4-31b-it",
+    "digest": "595aa9a24d4e2dd6",
+    "record": {
+      "id": "togetherai/pearl-ai/gemma-4-31b-it",
+      "provider": "togetherai",
+      "model": "pearl-ai/gemma-4-31b-it",
+      "kind": "chat",
+      "effective_date": "2026-04-07",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.28,
+      "output": 0.86,
+      "context_window": 32000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

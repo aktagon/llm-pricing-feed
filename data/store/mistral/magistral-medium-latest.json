@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/magistral-medium-latest",
+    "digest": "91512dd6f313b96",
+    "record": {
+      "id": "mistral/magistral-medium-latest",
+      "provider": "mistral",
+      "model": "magistral-medium-latest",
+      "kind": "chat",
+      "effective_date": "2025-03-20",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 5,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

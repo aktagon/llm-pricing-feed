@@ -1,0 +1,21 @@
+[
+  {
+    "key": "anthropic/claude-opus-4-5",
+    "digest": "fc9b03327505c85c",
+    "record": {
+      "id": "anthropic/claude-opus-4-5",
+      "provider": "anthropic",
+      "model": "claude-opus-4-5",
+      "kind": "chat",
+      "effective_date": "2025-11-24",
+      "source_url": "https://models.dev/api.json",
+      "input": 5,
+      "output": 25,
+      "cache_read": 0.5,
+      "cache_write_5m": 6.25,
+      "context_window": 200000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

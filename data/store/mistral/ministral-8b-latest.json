@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/ministral-8b-latest",
+    "digest": "6650d1b9af8e7675",
+    "record": {
+      "id": "mistral/ministral-8b-latest",
+      "provider": "mistral",
+      "model": "ministral-8b-latest",
+      "kind": "chat",
+      "effective_date": "2024-10-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.1,
+      "output": 0.1,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

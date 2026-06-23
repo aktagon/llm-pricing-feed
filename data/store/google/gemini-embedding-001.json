@@ -1,0 +1,18 @@
+[
+  {
+    "key": "google/gemini-embedding-001",
+    "digest": "4aeb03cab4b0738b",
+    "record": {
+      "id": "google/gemini-embedding-001",
+      "provider": "google",
+      "model": "gemini-embedding-001",
+      "kind": "embedding",
+      "effective_date": "2025-05-20",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "context_window": 2048,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "deepseek/deepseek-chat",
+    "digest": "1dfdb88681ce0615",
+    "record": {
+      "id": "deepseek/deepseek-chat",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "kind": "chat",
+      "effective_date": "2026-02-28",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.14,
+      "output": 0.28,
+      "cache_read": 0.0028,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

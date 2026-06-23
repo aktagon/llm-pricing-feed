@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/o4-mini-deep-research",
+    "digest": "e18f4cc439313e19",
+    "record": {
+      "id": "openai/o4-mini-deep-research",
+      "provider": "openai",
+      "model": "o4-mini-deep-research",
+      "kind": "chat",
+      "effective_date": "2024-06-26",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 8,
+      "cache_read": 0.5,
+      "context_window": 200000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

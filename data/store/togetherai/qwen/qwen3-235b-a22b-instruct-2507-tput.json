@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/qwen/qwen3-235b-a22b-instruct-2507-tput",
+    "digest": "f5c402d94aa7d0d1",
+    "record": {
+      "id": "togetherai/qwen/qwen3-235b-a22b-instruct-2507-tput",
+      "provider": "togetherai",
+      "model": "qwen/qwen3-235b-a22b-instruct-2507-tput",
+      "kind": "chat",
+      "effective_date": "2025-07-25",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.2,
+      "output": 0.6,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

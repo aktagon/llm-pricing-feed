@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/qwen/qwen3.5-9b",
+    "digest": "5473dc23e46e40d6",
+    "record": {
+      "id": "togetherai/qwen/qwen3.5-9b",
+      "provider": "togetherai",
+      "model": "qwen/qwen3.5-9b",
+      "kind": "chat",
+      "effective_date": "2026-03-03",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.17,
+      "output": 0.25,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

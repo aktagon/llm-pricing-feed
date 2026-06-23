@@ -1,0 +1,19 @@
+[
+  {
+    "key": "openai/o1-pro",
+    "digest": "34b6f165b1251526",
+    "record": {
+      "id": "openai/o1-pro",
+      "provider": "openai",
+      "model": "o1-pro",
+      "kind": "chat",
+      "effective_date": "2025-03-19",
+      "source_url": "https://models.dev/api.json",
+      "input": 150,
+      "output": 600,
+      "context_window": 200000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

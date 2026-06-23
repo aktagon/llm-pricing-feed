@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/nvidia/nemotron-3-ultra-550b-a55b",
+    "digest": "868bc2b7056c0d4e",
+    "record": {
+      "id": "togetherai/nvidia/nemotron-3-ultra-550b-a55b",
+      "provider": "togetherai",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
+      "kind": "chat",
+      "effective_date": "2026-06-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 3.6,
+      "cache_read": 0.2,
+      "context_window": 512300,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/mistral-medium-2505",
+    "digest": "991ec45494308acc",
+    "record": {
+      "id": "mistral/mistral-medium-2505",
+      "provider": "mistral",
+      "model": "mistral-medium-2505",
+      "kind": "chat",
+      "effective_date": "2025-05-07",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.4,
+      "output": 2,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

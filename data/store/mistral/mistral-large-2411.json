@@ -1,0 +1,19 @@
+[
+  {
+    "key": "mistral/mistral-large-2411",
+    "digest": "877af1e9c193a20e",
+    "record": {
+      "id": "mistral/mistral-large-2411",
+      "provider": "mistral",
+      "model": "mistral-large-2411",
+      "kind": "chat",
+      "effective_date": "2024-11-18",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 6,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

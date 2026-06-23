@@ -1,0 +1,20 @@
+[
+  {
+    "key": "openai/gpt-3.5-turbo",
+    "digest": "1571bf2eefa04c2",
+    "record": {
+      "id": "openai/gpt-3.5-turbo",
+      "provider": "openai",
+      "model": "gpt-3.5-turbo",
+      "kind": "chat",
+      "effective_date": "2023-11-06",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.5,
+      "output": 1.5,
+      "cache_read": 0,
+      "context_window": 16385,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

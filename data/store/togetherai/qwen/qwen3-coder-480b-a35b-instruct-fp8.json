@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/qwen/qwen3-coder-480b-a35b-instruct-fp8",
+    "digest": "53c199fda83a0a96",
+    "record": {
+      "id": "togetherai/qwen/qwen3-coder-480b-a35b-instruct-fp8",
+      "provider": "togetherai",
+      "model": "qwen/qwen3-coder-480b-a35b-instruct-fp8",
+      "kind": "chat",
+      "effective_date": "2025-07-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 2,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

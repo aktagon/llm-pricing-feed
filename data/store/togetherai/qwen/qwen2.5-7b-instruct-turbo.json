@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/qwen/qwen2.5-7b-instruct-turbo",
+    "digest": "280a431f8d6e666c",
+    "record": {
+      "id": "togetherai/qwen/qwen2.5-7b-instruct-turbo",
+      "provider": "togetherai",
+      "model": "qwen/qwen2.5-7b-instruct-turbo",
+      "kind": "chat",
+      "effective_date": "2024-09-19",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 0.3,
+      "context_window": 32768,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

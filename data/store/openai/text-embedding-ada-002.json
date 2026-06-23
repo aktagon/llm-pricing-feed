@@ -1,0 +1,18 @@
+[
+  {
+    "key": "openai/text-embedding-ada-002",
+    "digest": "c69dbbee4bb21020",
+    "record": {
+      "id": "openai/text-embedding-ada-002",
+      "provider": "openai",
+      "model": "text-embedding-ada-002",
+      "kind": "embedding",
+      "effective_date": "2022-12-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.1,
+      "context_window": 8192,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

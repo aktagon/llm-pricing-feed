@@ -1,0 +1,18 @@
+[
+  {
+    "key": "openai/text-embedding-3-large",
+    "digest": "3516ccfa2e4516a2",
+    "record": {
+      "id": "openai/text-embedding-3-large",
+      "provider": "openai",
+      "model": "text-embedding-3-large",
+      "kind": "embedding",
+      "effective_date": "2024-01-25",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.13,
+      "context_window": 8191,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

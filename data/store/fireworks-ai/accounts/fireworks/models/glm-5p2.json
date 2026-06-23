@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
+    "digest": "2de4ef083c52096b",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/glm-5p2",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/glm-5p2",
+      "kind": "chat",
+      "effective_date": "2026-06-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.4,
+      "output": 4.4,
+      "cache_read": 0.26,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

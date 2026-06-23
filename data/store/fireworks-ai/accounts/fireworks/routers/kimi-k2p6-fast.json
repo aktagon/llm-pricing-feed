@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
+    "digest": "2e28a77bcecd9a0d",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k2p6-fast",
+      "kind": "chat",
+      "effective_date": "2026-06-05",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 8,
+      "cache_read": 0.3,
+      "context_window": 262000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/deepseek-ai/deepseek-v3-1",
+    "digest": "396a71d8b993f611",
+    "record": {
+      "id": "togetherai/deepseek-ai/deepseek-v3-1",
+      "provider": "togetherai",
+      "model": "deepseek-ai/deepseek-v3-1",
+      "kind": "chat",
+      "effective_date": "2025-08-21",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 1.7,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

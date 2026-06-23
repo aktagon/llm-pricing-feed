@@ -1,0 +1,20 @@
+[
+  {
+    "key": "google/gemini-2.0-flash",
+    "digest": "18a8998fe19c8eba",
+    "record": {
+      "id": "google/gemini-2.0-flash",
+      "provider": "google",
+      "model": "gemini-2.0-flash",
+      "kind": "chat",
+      "effective_date": "2024-12-11",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.1,
+      "output": 0.4,
+      "cache_read": 0.025,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]

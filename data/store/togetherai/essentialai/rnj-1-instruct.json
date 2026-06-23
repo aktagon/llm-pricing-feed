@@ -1,0 +1,19 @@
+[
+  {
+    "key": "togetherai/essentialai/rnj-1-instruct",
+    "digest": "f209ee1e137a6a3b",
+    "record": {
+      "id": "togetherai/essentialai/rnj-1-instruct",
+      "provider": "togetherai",
+      "model": "essentialai/rnj-1-instruct",
+      "kind": "chat",
+      "effective_date": "2025-12-05",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.15,
+      "context_window": 32768,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-06-23T13:31:24.070Z"
+  }
+]
