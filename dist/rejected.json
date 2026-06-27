@@ -1,8 +1,8 @@
 {
-  "observed_at": "2026-06-26T09:51:23.247Z",
-  "snapshot_date": "2026-06-26",
+  "observed_at": "2026-06-27T08:49:33.349Z",
+  "snapshot_date": "2026-06-27",
   "ingest_rejected_count": 15,
-  "quarantined_count": 0,
+  "quarantined_count": 2,
   "ingest_rejections": [
     {
       "source": "models_dev",
@@ -140,5 +140,18 @@
       }
     }
   ],
-  "quarantined": []
+  "quarantined": [
+    {
+      "key": "anthropic/claude-3-5-haiku-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-haiku-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    }
+  ]
 }
