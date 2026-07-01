@@ -1,0 +1,21 @@
+[
+  {
+    "key": "anthropic/claude-sonnet-5",
+    "digest": "9b133ca8449b25b1",
+    "record": {
+      "id": "anthropic/claude-sonnet-5",
+      "provider": "anthropic",
+      "model": "claude-sonnet-5",
+      "kind": "chat",
+      "effective_date": "2026-06-30",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.2,
+      "cache_write_5m": 2.5,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-07-01T10:12:54.689Z"
+  }
+]
