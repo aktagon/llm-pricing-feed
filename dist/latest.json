@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "data_version": "2026-07-01",
+  "data_version": "2026-07-03",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -463,13 +463,13 @@
       "provider": "togetherai",
       "model": "meta-llama/llama-3.3-70b-instruct-turbo",
       "kind": "chat",
-      "effective_date": "2024-12-06",
+      "effective_date": "2026-07-02",
       "source_url": "https://models.dev/api.json",
-      "input": 0.88,
-      "output": 0.88,
+      "input": 1.04,
+      "output": 1.04,
       "context_window": 131072,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-07-03T09:34:34.065Z"
     },
     {
       "id": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
