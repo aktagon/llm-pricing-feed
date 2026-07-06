@@ -1,8 +1,8 @@
 {
-  "observed_at": "2026-07-05T09:22:16.158Z",
-  "snapshot_date": "2026-07-05",
+  "observed_at": "2026-07-06T11:01:55.016Z",
+  "snapshot_date": "2026-07-06",
   "ingest_rejected_count": 15,
-  "quarantined_count": 2,
+  "quarantined_count": 12,
   "ingest_rejections": [
     {
       "source": "models_dev",
@@ -142,13 +142,73 @@
   ],
   "quarantined": [
     {
+      "key": "anthropic/claude-sonnet-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "anthropic/claude-3-5-haiku-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
+      "key": "anthropic/claude-3-7-sonnet-20250219",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "anthropic/claude-3-5-haiku-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-sonnet-4-20250514",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-sonnet-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-20250514",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-opus-20240229",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-sonnet-20240229",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-haiku-20240307",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-sonnet-20240620",
       "flags": [
         "model_vanished"
       ]
