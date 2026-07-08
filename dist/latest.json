@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "data_version": "2026-07-06",
+  "data_version": "2026-07-08",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -2335,10 +2335,10 @@
       "source_url": "https://models.dev/api.json",
       "input": 1.4,
       "output": 4.4,
-      "cache_read": 0.26,
+      "cache_read": 0.14,
       "context_window": 1048575,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-27T08:49:33.349Z"
+      "observed_at": "2026-07-08T08:43:27.375Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/minimax-m3",
