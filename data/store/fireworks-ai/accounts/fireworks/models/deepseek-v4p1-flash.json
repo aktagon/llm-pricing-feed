@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash",
+    "digest": "f984fe9cb62fdcad",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/deepseek-v4p1-flash",
+      "kind": "chat",
+      "effective_date": "2026-09-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 1.2,
+      "cache_read": 0.006,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

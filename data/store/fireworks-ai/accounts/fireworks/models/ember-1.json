@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/ember-1",
+    "digest": "e3a714f0173f1ae0",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/ember-1",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/ember-1",
+      "kind": "chat",
+      "effective_date": "2026-09-22",
+      "source_url": "https://models.dev/api.json",
+      "input": 3,
+      "output": 15,
+      "cache_read": 0.3,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

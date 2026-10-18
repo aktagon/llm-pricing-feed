@@ -15,5 +15,23 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "mistral/mistral-large-2512",
+    "digest": "5c72534b4ef6aad7",
+    "record": {
+      "id": "mistral/mistral-large-2512",
+      "provider": "mistral",
+      "model": "mistral-large-2512",
+      "kind": "chat",
+      "effective_date": "2025-12-02",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.5,
+      "output": 1.5,
+      "cache_read": 0.05,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
   }
 ]

@@ -1,85 +1,13 @@
 {
-  "observed_at": "2026-07-08T08:43:27.375Z",
-  "snapshot_date": "2026-07-08",
-  "ingest_rejected_count": 15,
-  "quarantined_count": 12,
+  "observed_at": "2026-10-18T09:18:07.574Z",
+  "snapshot_date": "2026-10-18",
+  "ingest_rejected_count": 22,
+  "quarantined_count": 55,
   "ingest_rejections": [
     {
       "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-image-quality",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-image",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "chatgpt-image-latest",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1.5",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1-mini",
+      "provider": "groq",
+      "model": "whisper-large-v3",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -97,7 +25,16 @@
     {
       "source": "models_dev",
       "provider": "groq",
-      "model": "whisper-large-v3",
+      "model": "groq/compound-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "groq/compound",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -123,8 +60,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "groq",
-      "model": "groq/compound",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -132,8 +69,134 @@
     },
     {
       "source": "models_dev",
-      "provider": "groq",
-      "model": "groq/compound-mini",
+      "provider": "google",
+      "model": "veo-3.1-lite-generate-preview",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "veo-3.1-fast-generate-preview",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "veo-3.1-generate-preview",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video-1.5-lite",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-image",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-image-quality",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "mistral",
+      "model": "voxtral-mini-tts-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "mistral",
+      "model": "voxtral-mini-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -142,55 +205,247 @@
   ],
   "quarantined": [
     {
-      "key": "anthropic/claude-sonnet-4-0",
+      "key": "openai/gpt-5-chat-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-5-haiku-latest",
+      "key": "openai/o3-deep-research",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-7-sonnet-20250219",
+      "key": "openai/gpt-5.1-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-5-haiku-20241022",
+      "key": "openai/gpt-5.2-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-sonnet-4-20250514",
+      "key": "openai/o4-mini-deep-research",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-5-sonnet-20241022",
+      "key": "openai/gpt-5.1-codex-max",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-opus-4-0",
+      "key": "openai/gpt-5-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-opus-4-20250514",
+      "key": "openai/gpt-5.1-codex-mini",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-opus-20240229",
+      "key": "openai/gpt-5.1-chat-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/openai/gpt-oss-20b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.7-code",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.6",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.5",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/deepseek-ai/deepseek-v4-pro",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/google/gemma-4-31b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/google/gemma-3n-e4b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/deepcogito/cogito-v2-1-671b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/pearl-ai/gemma-4-31b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/magistral-small",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p1-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p2-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-turbo",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p1",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "google/gemini-2.0-flash-lite",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "google/gemini-3-pro-preview",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "google/gemini-2.0-flash",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "deepseek/deepseek-reasoner",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "deepseek/deepseek-chat",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-1-20250805",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-1",
       "flags": [
         "model_vanished"
       ]
@@ -202,13 +457,79 @@
       ]
     },
     {
+      "key": "anthropic/claude-3-5-sonnet-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-sonnet-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "anthropic/claude-3-haiku-20240307",
       "flags": [
         "model_vanished"
       ]
     },
     {
+      "key": "anthropic/claude-3-5-haiku-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-7-sonnet-20250219",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "anthropic/claude-3-5-sonnet-20240620",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-haiku-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-sonnet-4-20250514",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-opus-20240229",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-20250514",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "groq/qwen/qwen3-32b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
       "flags": [
         "model_vanished"
       ]

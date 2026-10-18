@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/glm-fast-latest",
+    "digest": "8ef783956ed5a7de",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-fast-latest",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-fast-latest",
+      "kind": "chat",
+      "effective_date": "2026-09-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.1,
+      "output": 6.6,
+      "cache_read": 0.39,
+      "context_window": 1048572,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/kimi-fast-latest",
+    "digest": "8159072a063a21bc",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-fast-latest",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-fast-latest",
+      "kind": "chat",
+      "effective_date": "2026-09-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 4.5,
+      "output": 22.5,
+      "cache_read": 0.45,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

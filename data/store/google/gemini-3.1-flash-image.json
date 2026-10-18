@@ -1,0 +1,19 @@
+[
+  {
+    "key": "google/gemini-3.1-flash-image",
+    "digest": "fd9042ed429d3bb6",
+    "record": {
+      "id": "google/gemini-3.1-flash-image",
+      "provider": "google",
+      "model": "gemini-3.1-flash-image",
+      "kind": "chat",
+      "effective_date": "2026-05-28",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.5,
+      "output": 60,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

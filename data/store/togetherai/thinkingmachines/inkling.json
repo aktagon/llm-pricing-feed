@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/thinkingmachines/inkling",
+    "digest": "1a752d5597a1f534",
+    "record": {
+      "id": "togetherai/thinkingmachines/inkling",
+      "provider": "togetherai",
+      "model": "thinkingmachines/inkling",
+      "kind": "chat",
+      "effective_date": "2026-07-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 1,
+      "output": 4.05,
+      "cache_read": 0.17,
+      "context_window": 524288,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

@@ -15,5 +15,23 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "togetherai/qwen/qwen3.5-397b-a17b",
+    "digest": "5cc316da5cf8e593",
+    "record": {
+      "id": "togetherai/qwen/qwen3.5-397b-a17b",
+      "provider": "togetherai",
+      "model": "qwen/qwen3.5-397b-a17b",
+      "kind": "chat",
+      "effective_date": "2026-06-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 3.6,
+      "cache_read": 0.35,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
   }
 ]

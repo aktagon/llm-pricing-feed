@@ -1,0 +1,20 @@
+[
+  {
+    "key": "mistral/ministral-14b-2512",
+    "digest": "43700d0802397188",
+    "record": {
+      "id": "mistral/ministral-14b-2512",
+      "provider": "mistral",
+      "model": "ministral-14b-2512",
+      "kind": "chat",
+      "effective_date": "2025-12-02",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.2,
+      "output": 0.2,
+      "cache_read": 0.02,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

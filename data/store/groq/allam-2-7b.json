@@ -1,0 +1,19 @@
+[
+  {
+    "key": "groq/allam-2-7b",
+    "digest": "46cff4d45bce082e",
+    "record": {
+      "id": "groq/allam-2-7b",
+      "provider": "groq",
+      "model": "allam-2-7b",
+      "kind": "chat",
+      "effective_date": "2025-01-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 0,
+      "output": 0,
+      "context_window": 4096,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

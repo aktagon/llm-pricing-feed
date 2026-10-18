@@ -1,0 +1,19 @@
+[
+  {
+    "key": "google/gemini-omni-flash-preview",
+    "digest": "8df1e9dbbc988a47",
+    "record": {
+      "id": "google/gemini-omni-flash-preview",
+      "provider": "google",
+      "model": "gemini-omni-flash-preview",
+      "kind": "chat",
+      "effective_date": "2026-06-30",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.5,
+      "output": 17.5,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

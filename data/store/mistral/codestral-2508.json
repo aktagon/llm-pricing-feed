@@ -1,0 +1,20 @@
+[
+  {
+    "key": "mistral/codestral-2508",
+    "digest": "4c9b0a7d9ef56fb5",
+    "record": {
+      "id": "mistral/codestral-2508",
+      "provider": "mistral",
+      "model": "codestral-2508",
+      "kind": "chat",
+      "effective_date": "2025-07-30",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 0.9,
+      "cache_read": 0.03,
+      "context_window": 256000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

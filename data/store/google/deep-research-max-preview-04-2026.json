@@ -1,0 +1,20 @@
+[
+  {
+    "key": "google/deep-research-max-preview-04-2026",
+    "digest": "66d0c1351b705998",
+    "record": {
+      "id": "google/deep-research-max-preview-04-2026",
+      "provider": "google",
+      "model": "deep-research-max-preview-04-2026",
+      "kind": "chat",
+      "effective_date": "2026-04-21",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 12,
+      "cache_read": 0.2,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

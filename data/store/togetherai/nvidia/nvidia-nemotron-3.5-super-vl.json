@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/nvidia/nvidia-nemotron-3.5-super-vl",
+    "digest": "29f0048ef6eb4eed",
+    "record": {
+      "id": "togetherai/nvidia/nvidia-nemotron-3.5-super-vl",
+      "provider": "togetherai",
+      "model": "nvidia/nvidia-nemotron-3.5-super-vl",
+      "kind": "chat",
+      "effective_date": "2026-10-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.02,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

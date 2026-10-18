@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/deepseek-ai/deepseek-v4-flash-0731",
+    "digest": "1280721d23c5c79b",
+    "record": {
+      "id": "togetherai/deepseek-ai/deepseek-v4-flash-0731",
+      "provider": "togetherai",
+      "model": "deepseek-ai/deepseek-v4-flash-0731",
+      "kind": "chat",
+      "effective_date": "2026-07-31",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.14,
+      "output": 0.28,
+      "cache_read": 0.03,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

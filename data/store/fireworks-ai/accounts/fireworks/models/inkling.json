@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/inkling",
+    "digest": "254ed1e9b62f0906",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/inkling",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/inkling",
+      "kind": "chat",
+      "effective_date": "2026-07-15",
+      "source_url": "https://models.dev/api.json",
+      "input": 1,
+      "output": 4.05,
+      "cache_read": 0.17,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]

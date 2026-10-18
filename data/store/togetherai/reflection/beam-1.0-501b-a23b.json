@@ -1,0 +1,20 @@
+[
+  {
+    "key": "togetherai/reflection/beam-1.0-501b-a23b",
+    "digest": "e3b9c6f053d5b7be",
+    "record": {
+      "id": "togetherai/reflection/beam-1.0-501b-a23b",
+      "provider": "togetherai",
+      "model": "reflection/beam-1.0-501b-a23b",
+      "kind": "chat",
+      "effective_date": "2026-10-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.4,
+      "output": 1.2,
+      "cache_read": 0.04,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-18T09:18:07.574Z"
+  }
+]
