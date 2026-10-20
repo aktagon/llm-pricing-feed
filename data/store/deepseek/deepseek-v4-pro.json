@@ -35,5 +35,24 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "deepseek/deepseek-v4-pro",
+    "digest": "24c9db42b66fb9f7",
+    "record": {
+      "id": "deepseek/deepseek-v4-pro",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "kind": "chat",
+      "effective_date": "2026-08-22",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.66,
+      "output": 1.98,
+      "cache_read": 0.022,
+      "reasoning": 1.98,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-20T11:33:21.162Z"
   }
 ]

@@ -32,5 +32,23 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "mistral/ministral-3b-latest",
+    "digest": "b45837bcafbc5072",
+    "record": {
+      "id": "mistral/ministral-3b-latest",
+      "provider": "mistral",
+      "model": "ministral-3b-latest",
+      "kind": "chat",
+      "effective_date": "2024-10-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.1,
+      "output": 0.1,
+      "cache_read": 0.01,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-20T11:33:21.162Z"
   }
 ]
