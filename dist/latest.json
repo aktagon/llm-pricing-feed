@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "data_version": "2026-10-20",
+  "data_version": "2026-10-21",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -816,13 +816,14 @@
       "provider": "groq",
       "model": "openai/gpt-oss-safeguard-20b",
       "kind": "chat",
-      "effective_date": "2026-06-29",
+      "effective_date": "2025-10-29",
       "source_url": "https://models.dev/api.json",
       "input": 0.075,
       "output": 0.3,
+      "cache_read": 0.0375,
       "context_window": 131072,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-30T10:00:09.603Z"
+      "observed_at": "2026-10-21T11:45:54.478Z"
     },
     {
       "id": "groq/openai/gpt-oss-20b",
@@ -940,9 +941,9 @@
       "source_url": "https://models.dev/api.json",
       "input": 0.8,
       "output": 4,
-      "context_window": 131042,
+      "context_window": 131072,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-10-21T11:45:54.478Z"
     },
     {
       "id": "groq/llama-3.1-8b-instant",
@@ -1291,9 +1292,9 @@
       "input": 1.4,
       "output": 4.4,
       "cache_read": 0.26,
-      "context_window": 1048576,
+      "context_window": 1048575,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-10-21T11:45:54.478Z"
     },
     {
       "id": "togetherai/zai-org/glm-5.2",
@@ -1394,14 +1395,14 @@
       "provider": "togetherai",
       "model": "qwen/qwen3.7-max",
       "kind": "chat",
-      "effective_date": "2026-07-02",
+      "effective_date": "2026-05-21",
       "source_url": "https://models.dev/api.json",
-      "input": 1.25,
-      "output": 3.75,
-      "cache_read": 0.125,
+      "input": 2.5,
+      "output": 7.5,
+      "cache_read": 0.5,
       "context_window": 1000000,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-10-21T11:45:54.478Z"
     },
     {
       "id": "togetherai/qwen/qwen3-coder-480b-a35b-instruct-fp8",
@@ -3593,6 +3594,20 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "google/gemini-pro-latest",
+      "provider": "google",
+      "model": "gemini-pro-latest",
+      "kind": "chat",
+      "effective_date": "2026-02-19",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 12,
+      "cache_read": 0.2,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-21T11:45:54.478Z"
     },
     {
       "id": "google/lyria-3-pro-preview",
