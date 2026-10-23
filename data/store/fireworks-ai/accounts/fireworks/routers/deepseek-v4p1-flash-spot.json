@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+    "digest": "b8d716faf30e3041",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "kind": "chat",
+      "effective_date": "2026-09-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.21,
+      "output": 0.84,
+      "cache_read": 0.0042,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-23T11:35:54.625Z"
+  }
+]

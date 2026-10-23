@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/kimi-k3-spot",
+    "digest": "fe59c411f27d8f94",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3-spot",
+      "kind": "chat",
+      "effective_date": "2026-07-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.1,
+      "output": 10.5,
+      "cache_read": 0.21,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-23T11:35:54.625Z"
+  }
+]

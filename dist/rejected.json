@@ -1,9 +1,63 @@
 {
-  "observed_at": "2026-10-22T11:49:05.681Z",
-  "snapshot_date": "2026-10-22",
-  "ingest_rejected_count": 22,
-  "quarantined_count": 60,
+  "observed_at": "2026-10-23T11:35:54.625Z",
+  "snapshot_date": "2026-10-23",
+  "ingest_rejected_count": 17,
+  "quarantined_count": 66,
   "ingest_rejections": [
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
     {
       "source": "models_dev",
       "provider": "groq",
@@ -25,16 +79,7 @@
     {
       "source": "models_dev",
       "provider": "groq",
-      "model": "groq/compound-mini",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "groq/compound",
+      "model": "canopylabs/orpheus-arabic-saudi",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -44,15 +89,6 @@
       "source": "models_dev",
       "provider": "groq",
       "model": "canopylabs/orpheus-v1-english",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "canopylabs/orpheus-arabic-saudi",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -78,71 +114,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "google",
-      "model": "veo-3.1-generate-preview",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "veo-3.1-fast-generate-preview",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "veo-3.1-lite-generate-preview",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-image",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-image-quality",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video-1.5-lite",
+      "model": "grok-imagine-video",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -160,7 +133,7 @@
     {
       "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-video",
+      "model": "grok-imagine-video-1.5-lite",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -168,8 +141,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1-mini",
+      "provider": "xai",
+      "model": "grok-imagine-image-quality",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -177,26 +150,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "openai",
-      "model": "chatgpt-image-latest",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1.5",
+      "provider": "xai",
+      "model": "grok-imagine-image",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -337,6 +292,30 @@
       ]
     },
     {
+      "key": "mistral/devstral-medium-2507",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/mistral-large-2411",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/pixtral-large-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/devstral-small-2507",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "mistral/open-mixtral-8x7b",
       "flags": [
         "model_vanished"
@@ -349,7 +328,19 @@
       ]
     },
     {
+      "key": "mistral/devstral-small-2505",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "mistral/open-mistral-7b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/mistral-nemo",
       "flags": [
         "model_vanished"
       ]

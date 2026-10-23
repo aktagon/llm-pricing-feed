@@ -1,0 +1,20 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/minimax-m3p1-flash",
+    "digest": "34638d0bbff2671f",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/minimax-m3p1-flash",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/minimax-m3p1-flash",
+      "kind": "chat",
+      "effective_date": "2026-10-19",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-10-23T11:35:54.625Z"
+  }
+]

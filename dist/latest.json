@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2.0",
-  "data_version": "2026-10-21",
+  "data_version": "2026-10-23",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -1438,12 +1438,12 @@
       "kind": "chat",
       "effective_date": "2026-10-06",
       "source_url": "https://models.dev/api.json",
-      "input": 0.68,
-      "output": 2.09,
-      "cache_read": 0.07,
+      "input": 1.36,
+      "output": 4.18,
+      "cache_read": 0.14,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-10-23T11:35:54.625Z"
     },
     {
       "id": "mistral/ministral-14b-2512",
@@ -1860,6 +1860,20 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "mistral/zai-glm-5-3-flash",
+      "provider": "mistral",
+      "model": "zai-glm-5-3-flash",
+      "kind": "chat",
+      "effective_date": "2026-08-26",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.03,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
+    },
+    {
       "id": "mistral/ministral-3b-2512",
       "provider": "mistral",
       "model": "ministral-3b-2512",
@@ -1984,6 +1998,48 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-spot",
+      "kind": "chat",
+      "effective_date": "2026-08-14",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.98,
+      "output": 3.08,
+      "cache_read": 0.182,
+      "context_window": 1048573,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
+      "kind": "chat",
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.21,
+      "output": 0.84,
+      "cache_read": 0.0042,
+      "context_window": 1000000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "kind": "chat",
+      "effective_date": "2026-09-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.21,
+      "output": 0.84,
+      "cache_read": 0.0042,
+      "context_window": 1000000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
+    },
+    {
       "id": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/routers/kimi-k2p6-fast",
@@ -2010,6 +2066,20 @@
       "context_window": 202800,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3-spot",
+      "kind": "chat",
+      "effective_date": "2026-07-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.1,
+      "output": 10.5,
+      "cache_read": 0.21,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/routers/qwen-max-latest",
@@ -2304,6 +2374,20 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/models/minimax-m3p1-flash",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/minimax-m3p1-flash",
+      "kind": "chat",
+      "effective_date": "2026-10-19",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.015,
+      "context_window": 1000000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-10-23T11:35:54.625Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
