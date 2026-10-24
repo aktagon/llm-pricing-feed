@@ -1,63 +1,9 @@
 {
-  "observed_at": "2026-10-23T11:35:54.625Z",
-  "snapshot_date": "2026-10-23",
+  "observed_at": "2026-10-24T10:56:36.182Z",
+  "snapshot_date": "2026-10-24",
   "ingest_rejected_count": 17,
   "quarantined_count": 66,
   "ingest_rejections": [
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1-mini",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1.5",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "chatgpt-image-latest",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
     {
       "source": "models_dev",
       "provider": "groq",
@@ -96,8 +42,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "mistral",
-      "model": "voxtral-mini-latest",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -105,8 +51,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "mistral",
-      "model": "voxtral-mini-tts-latest",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -114,8 +60,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -123,8 +69,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video-1.5",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -132,8 +78,17 @@
     },
     {
       "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video-1.5-lite",
+      "provider": "openai",
+      "model": "gpt-image-1",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -151,7 +106,52 @@
     {
       "source": "models_dev",
       "provider": "xai",
+      "model": "grok-imagine-video-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
+      "model": "grok-imagine-video-1.5-lite",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
       "model": "grok-imagine-image",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "mistral",
+      "model": "voxtral-mini-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "mistral",
+      "model": "voxtral-mini-tts-latest",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
