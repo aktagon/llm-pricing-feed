@@ -1,9 +1,63 @@
 {
-  "observed_at": "2026-10-26T12:59:00.006Z",
-  "snapshot_date": "2026-10-26",
+  "observed_at": "2026-10-27T12:08:24.727Z",
+  "snapshot_date": "2026-10-27",
   "ingest_rejected_count": 17,
   "quarantined_count": 66,
   "ingest_rejections": [
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
     {
       "source": "models_dev",
       "provider": "mistral",
@@ -24,35 +78,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1-mini",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "chatgpt-image-latest",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1.5",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1",
+      "provider": "xai",
+      "model": "grok-imagine-image-quality",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -61,7 +88,7 @@
     {
       "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-video-1.5-lite",
+      "model": "grok-imagine-video-1.5",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -79,7 +106,7 @@
     {
       "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-image-quality",
+      "model": "grok-imagine-video-1.5-lite",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -89,24 +116,6 @@
       "source": "models_dev",
       "provider": "xai",
       "model": "grok-imagine-video",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
-      "model": "grok-imagine-video-1.5",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "whisper-large-v3-turbo",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -124,7 +133,7 @@
     {
       "source": "models_dev",
       "provider": "groq",
-      "model": "canopylabs/orpheus-v1-english",
+      "model": "whisper-large-v3-turbo",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -141,17 +150,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-v1-english",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
