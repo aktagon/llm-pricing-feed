@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-10-28T12:51:13.936Z",
-  "snapshot_date": "2026-10-28",
-  "ingest_rejected_count": 17,
-  "quarantined_count": 66,
+  "observed_at": "2026-11-01T13:19:38.597Z",
+  "snapshot_date": "2026-11-01",
+  "ingest_rejected_count": 16,
+  "quarantined_count": 68,
   "ingest_rejections": [
     {
       "source": "models_dev",
-      "provider": "openai",
-      "model": "chatgpt-image-latest",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -15,62 +15,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1-mini",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "openai",
-      "model": "gpt-image-1.5",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "whisper-large-v3-turbo",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "whisper-large-v3",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "canopylabs/orpheus-arabic-saudi",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "groq",
-      "model": "canopylabs/orpheus-v1-english",
+      "provider": "google",
+      "model": "gemma-4-26b-a4b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -97,6 +43,15 @@
     {
       "source": "models_dev",
       "provider": "xai",
+      "model": "grok-imagine-video-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "xai",
       "model": "grok-imagine-video",
       "error": {
         "kind": "MissingBaseRate",
@@ -115,15 +70,6 @@
     {
       "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-video-1.5-lite",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "xai",
       "model": "grok-imagine-image-quality",
       "error": {
         "kind": "MissingBaseRate",
@@ -133,7 +79,7 @@
     {
       "source": "models_dev",
       "provider": "xai",
-      "model": "grok-imagine-video-1.5",
+      "model": "grok-imagine-video-1.5-lite",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -141,8 +87,8 @@
     },
     {
       "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -150,8 +96,53 @@
     },
     {
       "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "whisper-large-v3",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "whisper-large-v3-turbo",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-v1-english",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-arabic-saudi",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
@@ -160,127 +151,7 @@
   ],
   "quarantined": [
     {
-      "key": "openai/gpt-5.2-chat-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5-chat-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.3-chat-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/o3-deep-research",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.1-codex",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.2-codex",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/o4-mini-deep-research",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.1-codex-max",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5-codex",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.1-codex-mini",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5.1-chat-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/openai/gpt-oss-20b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/moonshotai/kimi-k2.7-code",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/moonshotai/kimi-k2.6",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/moonshotai/kimi-k2.5",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/deepseek-ai/deepseek-v4-pro",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/google/gemma-4-31b-it",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/google/gemma-3n-e4b-it",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/deepcogito/cogito-v2-1-671b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/pearl-ai/gemma-4-31b-it",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
+      "key": "mistral/devstral-small-2505",
       "flags": [
         "model_vanished"
       ]
@@ -292,19 +163,7 @@
       ]
     },
     {
-      "key": "mistral/devstral-medium-2507",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
       "key": "mistral/mistral-large-2411",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "mistral/pixtral-large-latest",
       "flags": [
         "model_vanished"
       ]
@@ -322,13 +181,7 @@
       ]
     },
     {
-      "key": "mistral/open-mixtral-8x22b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "mistral/devstral-small-2505",
+      "key": "mistral/devstral-medium-2507",
       "flags": [
         "model_vanished"
       ]
@@ -340,91 +193,109 @@
       ]
     },
     {
+      "key": "mistral/open-mixtral-8x22b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "mistral/mistral-nemo",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
+      "key": "mistral/pixtral-large-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p1-fast",
+      "key": "openai/gpt-5.1-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p2-fast",
+      "key": "openai/gpt-5.3-chat-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "key": "openai/o4-mini-deep-research",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-turbo",
+      "key": "openai/gpt-5.1-chat-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/glm-5p1",
+      "key": "openai/gpt-5.1-codex-max",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
+      "key": "openai/gpt-5.1-codex-mini",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
+      "key": "openai/o3-deep-research",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
+      "key": "openai/gpt-5-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
+      "key": "openai/gpt-5-chat-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+      "key": "openai/gpt-5.2-chat-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
+      "key": "openai/gpt-5.2-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
+      "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+      "key": "groq/qwen/qwen3-32b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "google/gemini-3.1-flash-image-preview",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "google/gemini-3-pro-image-preview",
       "flags": [
         "model_vanished"
       ]
@@ -448,79 +319,13 @@
       ]
     },
     {
-      "key": "deepseek/deepseek-reasoner",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "deepseek/deepseek-chat",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-opus-4-1-20250805",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-opus-4-1",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-sonnet-20240229",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-5-sonnet-20241022",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-sonnet-4-0",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-haiku-20240307",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
       "key": "anthropic/claude-3-5-haiku-20241022",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-7-sonnet-20250219",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-5-sonnet-20240620",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-5-haiku-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-opus-4-0",
+      "key": "anthropic/claude-3-haiku-20240307",
       "flags": [
         "model_vanished"
       ]
@@ -538,19 +343,217 @@
       ]
     },
     {
+      "key": "anthropic/claude-3-5-sonnet-20240620",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-sonnet-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-1",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-7-sonnet-20250219",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "anthropic/claude-opus-4-20250514",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "groq/qwen/qwen3-32b",
+      "key": "anthropic/claude-3-5-haiku-latest",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+      "key": "anthropic/claude-3-sonnet-20240229",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-sonnet-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-1-20250805",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p1",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p1-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-turbo",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p7-code-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/routers/glm-5p2-fast",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "deepseek/deepseek-reasoner",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "deepseek/deepseek-chat",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/openai/gpt-oss-20b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/google/gemma-4-31b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/google/gemma-3n-e4b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.6",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.7-code",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/moonshotai/kimi-k2.5",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/pearl-ai/gemma-4-31b-it",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/deepcogito/cogito-v2-1-671b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "togetherai/deepseek-ai/deepseek-v4-pro",
       "flags": [
         "model_vanished"
       ]
