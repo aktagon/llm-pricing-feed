@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.2.0",
-  "data_version": "2026-11-01",
+  "schema_version": "1.3.0",
+  "data_version": "2026-11-04",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -264,26 +264,40 @@
       "provider": "mistral",
       "model": "voxtral-small-2507",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2025-07-15",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio"
+      ],
       "input": 0.1,
       "output": 0.4,
       "context_window": 32768,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "mistral/voxtral-small-latest",
       "provider": "mistral",
       "model": "voxtral-small-latest",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2025-07-15",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio"
+      ],
       "input": 0.1,
       "output": 0.4,
       "context_window": 32768,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-20T11:33:21.162Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "mistral/devstral-medium-2507",
@@ -479,12 +493,18 @@
       "provider": "mistral",
       "model": "mistral-embed",
       "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2023-12-11",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.1,
       "context_window": 8000,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "mistral/ministral-8b-latest",
@@ -749,6 +769,85 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "openai/gpt-image-1-mini",
+      "provider": "openai",
+      "model": "gpt-image-1-mini",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 2,
+      "image_output": 8,
+      "image_cache_read": 0.25,
+      "unit_prices": [
+        {
+          "unit": "image",
+          "price": 0.005,
+          "basis": "estimate",
+          "variant": "low, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.006,
+          "basis": "estimate",
+          "variant": "low, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.006,
+          "basis": "estimate",
+          "variant": "low, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.011,
+          "basis": "estimate",
+          "variant": "medium, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.015,
+          "basis": "estimate",
+          "variant": "medium, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.015,
+          "basis": "estimate",
+          "variant": "medium, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.036,
+          "basis": "estimate",
+          "variant": "high, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.052,
+          "basis": "estimate",
+          "variant": "high, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.052,
+          "basis": "estimate",
+          "variant": "high, 1536x1024"
+        }
+      ],
+      "cache_read": 0.2,
+      "image_input": 2.5,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "openai/gpt-6.1-terra",
       "provider": "openai",
       "model": "gpt-6.1-terra",
@@ -775,6 +874,30 @@
       "context_window": 128000,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "openai/chatgpt-image-latest",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 5,
+      "output": 10,
+      "image_output": 32,
+      "image_cache_read": 2,
+      "cache_read": 1.25,
+      "image_input": 8,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/gpt-5.6-sol",
@@ -878,6 +1001,77 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "openai/gpt-image-1.5",
+      "provider": "openai",
+      "model": "gpt-image-1.5",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 5,
+      "output": 10,
+      "image_output": 32,
+      "image_cache_read": 2,
+      "image_sizes": [
+        {
+          "size": "1024x1024",
+          "quality": "low",
+          "tokens": 272
+        },
+        {
+          "size": "1024x1536",
+          "quality": "low",
+          "tokens": 408
+        },
+        {
+          "size": "1536x1024",
+          "quality": "low",
+          "tokens": 400
+        },
+        {
+          "size": "1024x1024",
+          "quality": "medium",
+          "tokens": 1056
+        },
+        {
+          "size": "1024x1536",
+          "quality": "medium",
+          "tokens": 1584
+        },
+        {
+          "size": "1536x1024",
+          "quality": "medium",
+          "tokens": 1568
+        },
+        {
+          "size": "1024x1024",
+          "quality": "high",
+          "tokens": 4160
+        },
+        {
+          "size": "1024x1536",
+          "quality": "high",
+          "tokens": 6240
+        },
+        {
+          "size": "1536x1024",
+          "quality": "high",
+          "tokens": 6208
+        }
+      ],
+      "cache_read": 1.25,
+      "image_input": 8,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "openai/o1",
       "provider": "openai",
       "model": "o1",
@@ -911,12 +1105,18 @@
       "provider": "openai",
       "model": "text-embedding-ada-002",
       "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2022-12-15",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.1,
       "context_window": 8192,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/gpt-5.1-chat-latest",
@@ -977,12 +1177,18 @@
       "provider": "openai",
       "model": "text-embedding-3-small",
       "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2024-01-25",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.02,
       "context_window": 8191,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/o3-mini",
@@ -1046,12 +1252,18 @@
       "provider": "openai",
       "model": "text-embedding-3-large",
       "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2024-01-25",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.13,
       "context_window": 8191,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/gpt-5.4-pro",
@@ -1211,15 +1423,80 @@
       "id": "openai/gpt-image-2",
       "provider": "openai",
       "model": "gpt-image-2",
-      "kind": "chat",
-      "effective_date": "2026-04-21",
-      "source_url": "https://models.dev/api.json",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
       "input": 5,
-      "output": 30,
+      "image_output": 30,
+      "image_cache_read": 2,
+      "unit_prices": [
+        {
+          "unit": "image",
+          "price": 0.006,
+          "basis": "estimate",
+          "variant": "low, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.005,
+          "basis": "estimate",
+          "variant": "low, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.005,
+          "basis": "estimate",
+          "variant": "low, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.053,
+          "basis": "estimate",
+          "variant": "medium, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.041,
+          "basis": "estimate",
+          "variant": "medium, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.041,
+          "basis": "estimate",
+          "variant": "medium, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.211,
+          "basis": "estimate",
+          "variant": "high, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.165,
+          "basis": "estimate",
+          "variant": "high, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.165,
+          "basis": "estimate",
+          "variant": "high, 1536x1024"
+        }
+      ],
       "cache_read": 1.25,
-      "context_window": 0,
-      "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "image_input": 8,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/gpt-5-chat-latest",
@@ -1282,14 +1559,25 @@
       "provider": "openai",
       "model": "gpt-realtime-2.1",
       "kind": "chat",
+      "output_modalities": [
+        "text",
+        "audio"
+      ],
       "effective_date": "2026-07-06",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio",
+        "image"
+      ],
       "input": 4,
       "output": 24,
+      "audio_output": 64,
       "cache_read": 0.4,
+      "audio_input": 32,
       "context_window": 128000,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "openai/gpt-5.2-pro",
@@ -1418,6 +1706,29 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "groq/whisper-large-v3",
+      "provider": "groq",
+      "model": "whisper-large-v3",
+      "kind": "audio",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "audio"
+      ],
+      "unit_prices": [
+        {
+          "unit": "hour",
+          "price": 0.111,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "groq/openai/gpt-oss-safeguard-20b",
       "provider": "groq",
       "model": "openai/gpt-oss-safeguard-20b",
@@ -1512,6 +1823,77 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "groq/whisper-large-v3-turbo",
+      "provider": "groq",
+      "model": "whisper-large-v3-turbo",
+      "kind": "audio",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "audio"
+      ],
+      "unit_prices": [
+        {
+          "unit": "hour",
+          "price": 0.04,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
+      "id": "groq/canopylabs/orpheus-v1-english",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-v1-english",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "text"
+      ],
+      "unit_prices": [
+        {
+          "unit": "1m_characters",
+          "price": 22,
+          "basis": "billed"
+        }
+      ],
+      "context_window": 4000,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
+      "id": "groq/canopylabs/orpheus-arabic-saudi",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-arabic-saudi",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "text"
+      ],
+      "unit_prices": [
+        {
+          "unit": "1m_characters",
+          "price": 40,
+          "basis": "billed"
+        }
+      ],
+      "context_window": 4000,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "groq/allam-2-7b",
       "provider": "groq",
       "model": "allam-2-7b",
@@ -1582,81 +1964,99 @@
       "provider": "google",
       "model": "gemini-2.5-flash-lite",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2025-06-17",
       "source_url": "https://models.dev/api.json",
       "input": 0.1,
       "output": 0.4,
       "cache_read": 0.01,
+      "audio_input": 0.3,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-flash-latest",
       "provider": "google",
       "model": "gemini-flash-latest",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-08-13",
       "source_url": "https://models.dev/api.json",
       "input": 0.75,
       "output": 3.75,
       "cache_read": 0.075,
+      "audio_input": 0.75,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/lyria-3-pro-preview",
       "provider": "google",
       "model": "lyria-3-pro-preview",
-      "kind": "chat",
-      "effective_date": "2026-03-25",
-      "source_url": "https://models.dev/api.json",
-      "input": 0,
-      "output": 0,
-      "context_window": 1048576,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "kind": "music",
+      "output_modalities": [
+        "music"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "song",
+          "price": 0.08,
+          "basis": "billed",
+          "variant": "full song"
+        }
+      ],
+      "context_window": 131072,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-flash-lite",
       "provider": "google",
       "model": "gemini-3.1-flash-lite",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-05-07",
       "source_url": "https://models.dev/api.json",
       "input": 0.25,
       "output": 1.5,
       "cache_read": 0.025,
+      "audio_input": 0.5,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
-    },
-    {
-      "id": "google/gemini-omni-flash-preview",
-      "provider": "google",
-      "model": "gemini-omni-flash-preview",
-      "kind": "chat",
-      "effective_date": "2026-06-30",
-      "source_url": "https://models.dev/api.json",
-      "input": 1.5,
-      "output": 17.5,
-      "context_window": 131072,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.5-flash-preview-tts",
       "provider": "google",
       "model": "gemini-2.5-flash-preview-tts",
-      "kind": "chat",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
       "effective_date": "2025-05-01",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.5,
-      "output": 10,
+      "audio_output": 10,
       "context_window": 8192,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-pro-preview-customtools",
@@ -1701,98 +2101,109 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
-      "id": "google/gemini-3.1-flash-image-preview",
-      "provider": "google",
-      "model": "gemini-3.1-flash-image-preview",
-      "kind": "chat",
-      "effective_date": "2026-02-26",
-      "source_url": "https://models.dev/api.json",
-      "input": 0.5,
-      "output": 60,
-      "context_window": 65536,
-      "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
-    },
-    {
       "id": "google/gemini-3.5-flash",
       "provider": "google",
       "model": "gemini-3.5-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-05-19",
       "source_url": "https://models.dev/api.json",
       "input": 1.5,
       "output": 9,
       "cache_read": 0.15,
+      "audio_input": 1.5,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3-flash-preview",
       "provider": "google",
       "model": "gemini-3-flash-preview",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2025-12-17",
       "source_url": "https://models.dev/api.json",
       "input": 0.5,
       "output": 3,
       "cache_read": 0.05,
+      "audio_input": 1,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
-    },
-    {
-      "id": "google/gemini-3-pro-image-preview",
-      "provider": "google",
-      "model": "gemini-3-pro-image-preview",
-      "kind": "chat",
-      "effective_date": "2025-11-20",
-      "source_url": "https://models.dev/api.json",
-      "input": 2,
-      "output": 120,
-      "context_window": 131072,
-      "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/lyria-3-clip-preview",
       "provider": "google",
       "model": "lyria-3-clip-preview",
-      "kind": "chat",
-      "effective_date": "2026-03-25",
-      "source_url": "https://models.dev/api.json",
-      "input": 0,
-      "output": 0,
-      "context_window": 1048576,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "kind": "music",
+      "output_modalities": [
+        "music"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "song",
+          "price": 0.04,
+          "basis": "billed",
+          "variant": "30s clip"
+        }
+      ],
+      "context_window": 131072,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.8-flash",
       "provider": "google",
       "model": "gemini-3.8-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-09-02",
       "source_url": "https://models.dev/api.json",
       "input": 0.75,
       "output": 3.75,
       "cache_read": 0.075,
+      "audio_input": 0.75,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-flash-live-preview",
       "provider": "google",
       "model": "gemini-3.1-flash-live-preview",
       "kind": "chat",
+      "output_modalities": [
+        "text",
+        "audio"
+      ],
       "effective_date": "2026-03-26",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio",
+        "image",
+        "video"
+      ],
       "input": 0.75,
       "output": 4.5,
+      "audio_output": 12,
+      "audio_input": 3,
       "context_window": 131072,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-flash-lite-latest",
@@ -1813,14 +2224,18 @@
       "provider": "google",
       "model": "gemini-3.7-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-08-13",
       "source_url": "https://models.dev/api.json",
       "input": 0.75,
       "output": 3.75,
       "cache_read": 0.075,
+      "audio_input": 0.75,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.5-computer-use-preview-10-2025",
@@ -1840,26 +2255,36 @@
       "provider": "google",
       "model": "gemini-4-argon",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-10-13",
       "source_url": "https://models.dev/api.json",
       "input": 2,
       "output": 10,
       "cache_read": 0.1,
+      "audio_input": 2,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-embedding-001",
       "provider": "google",
       "model": "gemini-embedding-001",
       "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2025-05-20",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 0.15,
       "context_window": 2048,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/deep-research-max-preview-04-2026",
@@ -1892,14 +2317,65 @@
       "id": "google/gemini-3-pro-image",
       "provider": "google",
       "model": "gemini-3-pro-image",
-      "kind": "chat",
-      "effective_date": "2026-05-28",
-      "source_url": "https://models.dev/api.json",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
       "input": 2,
-      "output": 120,
+      "output": 12,
+      "image_output": 120,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1120
+        },
+        {
+          "size": "2K",
+          "tokens": 1120
+        },
+        {
+          "size": "4K",
+          "tokens": 2000
+        }
+      ],
       "context_window": 65536,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "provider": "google",
+      "model": "gemini-omni-1.1-flash",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "input": 1.5,
+      "output": 9,
+      "video_output": 17.5,
+      "video_tokens_per_second": [
+        {
+          "resolution": "720p",
+          "tokens": 5792
+        }
+      ],
+      "context_window": 1048576,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-pro-latest",
@@ -1934,13 +2410,22 @@
       "provider": "google",
       "model": "gemini-3.5-live-translate-preview",
       "kind": "chat",
+      "output_modalities": [
+        "text",
+        "audio"
+      ],
       "effective_date": "2026-06-09",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "audio"
+      ],
       "input": 3.5,
       "output": 21,
+      "audio_output": 21,
+      "audio_input": 3.5,
       "context_window": 16384,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3-pro-preview",
@@ -1960,27 +2445,61 @@
       "id": "google/gemini-3.1-flash-image",
       "provider": "google",
       "model": "gemini-3.1-flash-image",
-      "kind": "chat",
-      "effective_date": "2026-05-28",
-      "source_url": "https://models.dev/api.json",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
       "input": 0.5,
-      "output": 60,
+      "output": 3,
+      "image_output": 60,
+      "image_sizes": [
+        {
+          "size": "512",
+          "tokens": 747
+        },
+        {
+          "size": "1K",
+          "tokens": 1120
+        },
+        {
+          "size": "2K",
+          "tokens": 1680
+        },
+        {
+          "size": "4K",
+          "tokens": 2520
+        }
+      ],
       "context_window": 131072,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-flash-tts-preview",
       "provider": "google",
       "model": "gemini-3.1-flash-tts-preview",
-      "kind": "chat",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
       "effective_date": "2026-04-15",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 1,
-      "output": 20,
+      "audio_output": 20,
       "context_window": 8192,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.5-flash-lite",
@@ -2000,42 +2519,63 @@
       "id": "google/gemini-embedding-2",
       "provider": "google",
       "model": "gemini-embedding-2",
-      "kind": "chat",
+      "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
       "effective_date": "2026-04-22",
       "source_url": "https://models.dev/api.json",
       "input": 0.2,
-      "output": 0,
+      "audio_input": 6.5,
       "context_window": 8192,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.5-flash-image",
       "provider": "google",
       "model": "gemini-2.5-flash-image",
-      "kind": "chat",
-      "effective_date": "2025-08-26",
-      "source_url": "https://models.dev/api.json",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
       "input": 0.3,
-      "output": 30,
-      "cache_read": 0.075,
-      "context_window": 32768,
-      "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "image_output": 30,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1290
+        }
+      ],
+      "batch_discount": 0.5,
+      "context_window": 65536,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-flash-lite-preview",
       "provider": "google",
       "model": "gemini-3.1-flash-lite-preview",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-03-03",
       "source_url": "https://models.dev/api.json",
       "input": 0.25,
       "output": 1.5,
       "cache_read": 0.025,
+      "audio_input": 0.5,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.0-flash",
@@ -2056,54 +2596,123 @@
       "provider": "google",
       "model": "gemini-3.6-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-07-21",
       "source_url": "https://models.dev/api.json",
       "input": 0.75,
       "output": 3.75,
       "cache_read": 0.075,
+      "audio_input": 0.75,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-3.1-flash-lite-image",
       "provider": "google",
       "model": "gemini-3.1-flash-lite-image",
-      "kind": "chat",
-      "effective_date": "2026-06-30",
-      "source_url": "https://models.dev/api.json",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
       "input": 0.25,
-      "output": 30,
+      "output": 1.5,
+      "image_output": 30,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1120
+        }
+      ],
+      "batch_discount": 0.5,
       "context_window": 65536,
-      "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
+      "id": "google/gemini-nano-banana-2.1",
+      "provider": "google",
+      "model": "gemini-nano-banana-2.1",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "input": 1.5,
+      "output": 7.5,
+      "image_output": 30,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1120
+        },
+        {
+          "size": "2K",
+          "tokens": 1680
+        },
+        {
+          "size": "4K",
+          "tokens": 3780
+        }
+      ],
+      "batch_discount": 0.5,
+      "context_window": 131072,
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.5-pro-preview-tts",
       "provider": "google",
       "model": "gemini-2.5-pro-preview-tts",
-      "kind": "chat",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
       "effective_date": "2025-05-01",
       "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
       "input": 1,
-      "output": 20,
+      "audio_output": 20,
       "context_window": 8192,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "google/gemini-2.5-flash",
       "provider": "google",
       "model": "gemini-2.5-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2025-06-17",
       "source_url": "https://models.dev/api.json",
       "input": 0.3,
       "output": 2.5,
       "cache_read": 0.03,
+      "audio_input": 1,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-06-23T13:31:24.070Z"
+      "observed_at": "2026-11-04T14:29:08.802Z"
     },
     {
       "id": "anthropic/claude-3-5-haiku-20241022",
@@ -3842,6 +4451,31 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "xai/grok-imagine-video",
+      "provider": "xai",
+      "model": "grok-imagine-video",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "unit_prices": [
+        {
+          "unit": "second",
+          "price": 0.05,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "xai/grok-4.7",
       "provider": "xai",
       "model": "grok-4.7",
@@ -3898,6 +4532,30 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "xai/grok-imagine-video-1.5-lite",
+      "provider": "xai",
+      "model": "grok-imagine-video-1.5-lite",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "second",
+          "price": 0.02,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
       "id": "xai/grok-4.5",
       "provider": "xai",
       "model": "grok-4.5",
@@ -3938,6 +4596,55 @@
       "context_window": 1000000,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "xai/grok-imagine-image",
+      "provider": "xai",
+      "model": "grok-imagine-image",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "image",
+          "price": 0.02,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
+    },
+    {
+      "id": "xai/grok-imagine-video-1.5",
+      "provider": "xai",
+      "model": "grok-imagine-video-1.5",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "unit_prices": [
+        {
+          "unit": "second",
+          "price": 0.08,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed",
+      "observed_at": "2026-11-04T14:29:08.802Z"
     }
   ]
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "groq/canopylabs/orpheus-v1-english",
+    "digest": "c00a396bdc2ce4d4",
+    "record": {
+      "id": "groq/canopylabs/orpheus-v1-english",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-v1-english",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "text"
+      ],
+      "unit_prices": [
+        {
+          "unit": "1m_characters",
+          "price": 22,
+          "basis": "billed"
+        }
+      ],
+      "context_window": 4000,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

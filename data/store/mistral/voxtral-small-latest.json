@@ -32,5 +32,29 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-20T11:33:21.162Z"
+  },
+  {
+    "key": "mistral/voxtral-small-latest",
+    "digest": "2dbc0b9c8818820e",
+    "record": {
+      "id": "mistral/voxtral-small-latest",
+      "provider": "mistral",
+      "model": "voxtral-small-latest",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2025-07-15",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio"
+      ],
+      "input": 0.1,
+      "output": 0.4,
+      "context_window": 32768,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

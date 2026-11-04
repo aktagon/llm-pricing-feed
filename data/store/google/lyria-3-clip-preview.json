@@ -15,5 +15,35 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "google/lyria-3-clip-preview",
+    "digest": "2282bd4134ed728b",
+    "record": {
+      "id": "google/lyria-3-clip-preview",
+      "provider": "google",
+      "model": "lyria-3-clip-preview",
+      "kind": "music",
+      "output_modalities": [
+        "music"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "song",
+          "price": 0.04,
+          "basis": "billed",
+          "variant": "30s clip"
+        }
+      ],
+      "context_window": 131072,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

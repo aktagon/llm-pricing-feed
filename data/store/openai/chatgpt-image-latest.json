@@ -1,0 +1,30 @@
+[
+  {
+    "key": "openai/chatgpt-image-latest",
+    "digest": "8faba4c94fe7f9c8",
+    "record": {
+      "id": "openai/chatgpt-image-latest",
+      "provider": "openai",
+      "model": "chatgpt-image-latest",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 5,
+      "output": 10,
+      "image_output": 32,
+      "image_cache_read": 2,
+      "cache_read": 1.25,
+      "image_input": 8,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

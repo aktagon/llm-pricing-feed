@@ -16,5 +16,88 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "openai/gpt-image-2",
+    "digest": "d47ecb6d3f14a6b6",
+    "record": {
+      "id": "openai/gpt-image-2",
+      "provider": "openai",
+      "model": "gpt-image-2",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 5,
+      "image_output": 30,
+      "image_cache_read": 2,
+      "unit_prices": [
+        {
+          "unit": "image",
+          "price": 0.006,
+          "basis": "estimate",
+          "variant": "low, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.005,
+          "basis": "estimate",
+          "variant": "low, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.005,
+          "basis": "estimate",
+          "variant": "low, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.053,
+          "basis": "estimate",
+          "variant": "medium, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.041,
+          "basis": "estimate",
+          "variant": "medium, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.041,
+          "basis": "estimate",
+          "variant": "medium, 1536x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.211,
+          "basis": "estimate",
+          "variant": "high, 1024x1024"
+        },
+        {
+          "unit": "image",
+          "price": 0.165,
+          "basis": "estimate",
+          "variant": "high, 1024x1536"
+        },
+        {
+          "unit": "image",
+          "price": 0.165,
+          "basis": "estimate",
+          "variant": "high, 1536x1024"
+        }
+      ],
+      "cache_read": 1.25,
+      "image_input": 8,
+      "batch_discount": 0.5,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

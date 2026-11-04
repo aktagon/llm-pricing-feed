@@ -14,5 +14,27 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "google/gemini-embedding-001",
+    "digest": "9094fa6ada839efc",
+    "record": {
+      "id": "google/gemini-embedding-001",
+      "provider": "google",
+      "model": "gemini-embedding-001",
+      "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
+      "effective_date": "2025-05-20",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
+      "input": 0.15,
+      "context_window": 2048,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

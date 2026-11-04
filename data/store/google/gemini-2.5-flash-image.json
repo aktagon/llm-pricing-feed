@@ -16,5 +16,37 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "google/gemini-2.5-flash-image",
+    "digest": "d9867b4e21f9191b",
+    "record": {
+      "id": "google/gemini-2.5-flash-image",
+      "provider": "google",
+      "model": "gemini-2.5-flash-image",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "input": 0.3,
+      "image_output": 30,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1290
+        }
+      ],
+      "batch_discount": 0.5,
+      "context_window": 65536,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

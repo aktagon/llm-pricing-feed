@@ -1,0 +1,30 @@
+[
+  {
+    "key": "xai/grok-imagine-image",
+    "digest": "7d4b1778489acdd2",
+    "record": {
+      "id": "xai/grok-imagine-image",
+      "provider": "xai",
+      "model": "grok-imagine-image",
+      "kind": "image",
+      "output_modalities": [
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "unit_prices": [
+        {
+          "unit": "image",
+          "price": 0.02,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

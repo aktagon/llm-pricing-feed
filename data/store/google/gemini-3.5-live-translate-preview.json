@@ -15,5 +15,31 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "google/gemini-3.5-live-translate-preview",
+    "digest": "b0cd12bed3712161",
+    "record": {
+      "id": "google/gemini-3.5-live-translate-preview",
+      "provider": "google",
+      "model": "gemini-3.5-live-translate-preview",
+      "kind": "chat",
+      "output_modalities": [
+        "text",
+        "audio"
+      ],
+      "effective_date": "2026-06-09",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "audio"
+      ],
+      "input": 3.5,
+      "output": 21,
+      "audio_output": 21,
+      "audio_input": 3.5,
+      "context_window": 16384,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

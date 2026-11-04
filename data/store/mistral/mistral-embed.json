@@ -14,5 +14,27 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "mistral/mistral-embed",
+    "digest": "44429d083e92c661",
+    "record": {
+      "id": "mistral/mistral-embed",
+      "provider": "mistral",
+      "model": "mistral-embed",
+      "kind": "embedding",
+      "output_modalities": [
+        "embedding"
+      ],
+      "effective_date": "2023-12-11",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
+      "input": 0.1,
+      "context_window": 8000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

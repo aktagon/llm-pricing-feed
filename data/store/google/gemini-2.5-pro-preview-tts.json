@@ -15,5 +15,28 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "google/gemini-2.5-pro-preview-tts",
+    "digest": "fe11e1d7de82b6c0",
+    "record": {
+      "id": "google/gemini-2.5-pro-preview-tts",
+      "provider": "google",
+      "model": "gemini-2.5-pro-preview-tts",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
+      "effective_date": "2025-05-01",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text"
+      ],
+      "input": 1,
+      "audio_output": 20,
+      "context_window": 8192,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

@@ -1,0 +1,29 @@
+[
+  {
+    "key": "groq/whisper-large-v3-turbo",
+    "digest": "2969c5bb6af4d32c",
+    "record": {
+      "id": "groq/whisper-large-v3-turbo",
+      "provider": "groq",
+      "model": "whisper-large-v3-turbo",
+      "kind": "audio",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "audio"
+      ],
+      "unit_prices": [
+        {
+          "unit": "hour",
+          "price": 0.04,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

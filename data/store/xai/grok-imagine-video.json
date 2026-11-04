@@ -1,0 +1,31 @@
+[
+  {
+    "key": "xai/grok-imagine-video",
+    "digest": "a78238b25da2dc7",
+    "record": {
+      "id": "xai/grok-imagine-video",
+      "provider": "xai",
+      "model": "grok-imagine-video",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://docs.x.ai/docs/models",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "unit_prices": [
+        {
+          "unit": "second",
+          "price": 0.05,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

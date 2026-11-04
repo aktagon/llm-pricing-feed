@@ -1,0 +1,34 @@
+[
+  {
+    "key": "google/gemini-omni-1.1-flash",
+    "digest": "cf209a064d0fedda",
+    "record": {
+      "id": "google/gemini-omni-1.1-flash",
+      "provider": "google",
+      "model": "gemini-omni-1.1-flash",
+      "kind": "video",
+      "output_modalities": [
+        "video"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "input": 1.5,
+      "output": 9,
+      "video_output": 17.5,
+      "video_tokens_per_second": [
+        {
+          "resolution": "720p",
+          "tokens": 5792
+        }
+      ],
+      "context_window": 1048576,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

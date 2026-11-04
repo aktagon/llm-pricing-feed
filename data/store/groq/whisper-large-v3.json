@@ -1,0 +1,29 @@
+[
+  {
+    "key": "groq/whisper-large-v3",
+    "digest": "9695c54d153cf545",
+    "record": {
+      "id": "groq/whisper-large-v3",
+      "provider": "groq",
+      "model": "whisper-large-v3",
+      "kind": "audio",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "audio"
+      ],
+      "unit_prices": [
+        {
+          "unit": "hour",
+          "price": 0.111,
+          "basis": "billed"
+        }
+      ],
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

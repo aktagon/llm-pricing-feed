@@ -1,0 +1,30 @@
+[
+  {
+    "key": "groq/canopylabs/orpheus-arabic-saudi",
+    "digest": "123b8e50bd0dc42c",
+    "record": {
+      "id": "groq/canopylabs/orpheus-arabic-saudi",
+      "provider": "groq",
+      "model": "canopylabs/orpheus-arabic-saudi",
+      "kind": "audio",
+      "output_modalities": [
+        "audio"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://console.groq.com/docs/models",
+      "input_modalities": [
+        "text"
+      ],
+      "unit_prices": [
+        {
+          "unit": "1m_characters",
+          "price": 40,
+          "basis": "billed"
+        }
+      ],
+      "context_window": 4000,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

@@ -16,5 +16,27 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-06-23T13:31:24.070Z"
+  },
+  {
+    "key": "google/gemini-2.5-flash",
+    "digest": "2fb335635c83c1b0",
+    "record": {
+      "id": "google/gemini-2.5-flash",
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2025-06-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 2.5,
+      "cache_read": 0.03,
+      "audio_input": 1,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

@@ -1,0 +1,44 @@
+[
+  {
+    "key": "google/gemini-nano-banana-2.1",
+    "digest": "78b51c89f313da6c",
+    "record": {
+      "id": "google/gemini-nano-banana-2.1",
+      "provider": "google",
+      "model": "gemini-nano-banana-2.1",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "input": 1.5,
+      "output": 7.5,
+      "image_output": 30,
+      "image_sizes": [
+        {
+          "size": "1K",
+          "tokens": 1120
+        },
+        {
+          "size": "2K",
+          "tokens": 1680
+        },
+        {
+          "size": "4K",
+          "tokens": 3780
+        }
+      ],
+      "batch_discount": 0.5,
+      "context_window": 131072,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

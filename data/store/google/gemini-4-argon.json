@@ -16,5 +16,27 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "google/gemini-4-argon",
+    "digest": "e6656b412e3b9acf",
+    "record": {
+      "id": "google/gemini-4-argon",
+      "provider": "google",
+      "model": "gemini-4-argon",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-13",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "audio_input": 2,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]

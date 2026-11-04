@@ -1,0 +1,47 @@
+[
+  {
+    "key": "google/gemini-3.1-flash-image",
+    "digest": "74b06a0beaa9aa82",
+    "record": {
+      "id": "google/gemini-3.1-flash-image",
+      "provider": "google",
+      "model": "gemini-3.1-flash-image",
+      "kind": "image",
+      "output_modalities": [
+        "text",
+        "image"
+      ],
+      "effective_date": "2026-11-03",
+      "source_url": "https://aistudio.google.com/docs/pricing",
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "input": 0.5,
+      "output": 3,
+      "image_output": 60,
+      "image_sizes": [
+        {
+          "size": "512",
+          "tokens": 747
+        },
+        {
+          "size": "1K",
+          "tokens": 1120
+        },
+        {
+          "size": "2K",
+          "tokens": 1680
+        },
+        {
+          "size": "4K",
+          "tokens": 2520
+        }
+      ],
+      "context_window": 131072,
+      "effective_date_kind": "observed"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
+  }
+]

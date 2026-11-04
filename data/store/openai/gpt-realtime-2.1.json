@@ -16,5 +16,34 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "openai/gpt-realtime-2.1",
+    "digest": "9bb55bbe876684f6",
+    "record": {
+      "id": "openai/gpt-realtime-2.1",
+      "provider": "openai",
+      "model": "gpt-realtime-2.1",
+      "kind": "chat",
+      "output_modalities": [
+        "text",
+        "audio"
+      ],
+      "effective_date": "2026-07-06",
+      "source_url": "https://models.dev/api.json",
+      "input_modalities": [
+        "text",
+        "audio",
+        "image"
+      ],
+      "input": 4,
+      "output": 24,
+      "audio_output": 64,
+      "cache_read": 0.4,
+      "audio_input": 32,
+      "context_window": 128000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-04T14:29:08.802Z"
   }
 ]
