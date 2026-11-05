@@ -1,9 +1,18 @@
 {
-  "observed_at": "2026-11-04T14:29:08.802Z",
-  "snapshot_date": "2026-11-04",
+  "observed_at": "2026-11-05T14:37:05.661Z",
+  "snapshot_date": "2026-11-05",
   "ingest_rejected_count": 5,
   "quarantined_count": 66,
   "ingest_rejections": [
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemini-omni-flash-preview",
+      "error": {
+        "kind": "MissingMediaRate",
+        "model_kind": "video"
+      }
+    },
     {
       "source": "models_dev",
       "provider": "google",
@@ -20,15 +29,6 @@
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemini-omni-flash-preview",
-      "error": {
-        "kind": "MissingMediaRate",
-        "model_kind": "video"
       }
     },
     {

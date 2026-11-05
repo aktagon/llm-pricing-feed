@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.0",
-  "data_version": "2026-11-04",
+  "data_version": "2026-11-05",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -4112,6 +4112,23 @@
       "context_window": 262144,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "togetherai/moonshotai/kimi-k3.1-pro",
+      "provider": "togetherai",
+      "model": "moonshotai/kimi-k3.1-pro",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.2,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-05T14:37:05.661Z"
     },
     {
       "id": "togetherai/moonshotai/kimi-k2.7-code",
