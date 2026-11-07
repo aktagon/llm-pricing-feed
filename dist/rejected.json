@@ -1,6 +1,6 @@
 {
-  "observed_at": "2026-11-06T14:14:05.523Z",
-  "snapshot_date": "2026-11-06",
+  "observed_at": "2026-11-07T12:57:39.167Z",
+  "snapshot_date": "2026-11-07",
   "ingest_rejected_count": 5,
   "quarantined_count": 66,
   "ingest_rejections": [
@@ -25,6 +25,15 @@
     {
       "source": "models_dev",
       "provider": "google",
+      "model": "gemma-4-31b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
       "model": "gemini-omni-flash-preview",
       "error": {
         "kind": "MissingMediaRate",
@@ -35,15 +44,6 @@
       "source": "models_dev",
       "provider": "google",
       "model": "gemma-4-26b-a4b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
       "error": {
         "kind": "MissingBaseRate",
         "field": "input"
