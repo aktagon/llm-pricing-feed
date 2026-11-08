@@ -1,18 +1,9 @@
 {
-  "observed_at": "2026-11-07T12:57:39.167Z",
-  "snapshot_date": "2026-11-07",
+  "observed_at": "2026-11-08T13:21:23.887Z",
+  "snapshot_date": "2026-11-08",
   "ingest_rejected_count": 5,
-  "quarantined_count": 66,
+  "quarantined_count": 70,
   "ingest_rejections": [
-    {
-      "source": "models_dev",
-      "provider": "mistral",
-      "model": "voxtral-mini-latest",
-      "error": {
-        "kind": "MissingMediaRate",
-        "model_kind": "audio"
-      }
-    },
     {
       "source": "models_dev",
       "provider": "mistral",
@@ -24,11 +15,11 @@
     },
     {
       "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
+      "provider": "mistral",
+      "model": "voxtral-mini-latest",
       "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
+        "kind": "MissingMediaRate",
+        "model_kind": "audio"
       }
     },
     {
@@ -38,6 +29,15 @@
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "video"
+      }
+    },
+    {
+      "source": "models_dev",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
+      "error": {
+        "kind": "MissingBaseRate",
+        "field": "input"
       }
     },
     {
@@ -292,6 +292,12 @@
       ]
     },
     {
+      "key": "fireworks-ai/accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
       "flags": [
         "model_vanished"
@@ -328,6 +334,18 @@
       ]
     },
     {
+      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/inkling",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
       "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
       "flags": [
         "model_vanished"
@@ -341,6 +359,12 @@
     },
     {
       "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4",
       "flags": [
         "model_vanished"
       ]
