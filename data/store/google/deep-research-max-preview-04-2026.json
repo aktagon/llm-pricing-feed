@@ -16,5 +16,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "google/deep-research-max-preview-04-2026",
+    "digest": "9d753a101acf7541",
+    "record": {
+      "id": "google/deep-research-max-preview-04-2026",
+      "provider": "google",
+      "model": "deep-research-max-preview-04-2026",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-04-21",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 12,
+      "cache_read": 0.2,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-10T14:50:46.162Z"
   }
 ]
