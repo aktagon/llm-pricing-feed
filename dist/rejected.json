@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-11-11T14:18:00.163Z",
-  "snapshot_date": "2026-11-11",
+  "observed_at": "2026-11-12T15:10:46.459Z",
+  "snapshot_date": "2026-11-12",
   "ingest_rejected_count": 5,
   "quarantined_count": 70,
   "ingest_rejections": [
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-tts-latest",
+      "model": "voxtral-mini-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -16,7 +16,7 @@
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-latest",
+      "model": "voxtral-mini-tts-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
