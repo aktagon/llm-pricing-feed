@@ -33,5 +33,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "mistral/mistral-large-latest",
+    "digest": "43a35389115d0b12",
+    "record": {
+      "id": "mistral/mistral-large-latest",
+      "provider": "mistral",
+      "model": "mistral-large-latest",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-06",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.7,
+      "output": 2.1,
+      "cache_read": 0.07,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-13T14:31:47.026Z"
   }
 ]

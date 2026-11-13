@@ -1,0 +1,22 @@
+[
+  {
+    "key": "google/gemma-4-31b-it",
+    "digest": "9d73b48e2182ccb3",
+    "record": {
+      "id": "google/gemma-4-31b-it",
+      "provider": "google",
+      "model": "gemma-4-31b-it",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-04-02",
+      "source_url": "https://models.dev/api.json",
+      "input": 0,
+      "output": 0,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-13T14:31:47.026Z"
+  }
+]

@@ -1,7 +1,7 @@
 {
-  "observed_at": "2026-11-12T15:10:46.459Z",
-  "snapshot_date": "2026-11-12",
-  "ingest_rejected_count": 5,
+  "observed_at": "2026-11-13T14:31:47.026Z",
+  "snapshot_date": "2026-11-13",
+  "ingest_rejected_count": 2,
   "quarantined_count": 70,
   "ingest_rejections": [
     {
@@ -21,110 +21,83 @@
         "kind": "MissingMediaRate",
         "model_kind": "audio"
       }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemini-omni-flash-preview",
-      "error": {
-        "kind": "MissingMediaRate",
-        "model_kind": "video"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-31b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
-    },
-    {
-      "source": "models_dev",
-      "provider": "google",
-      "model": "gemma-4-26b-a4b-it",
-      "error": {
-        "kind": "MissingBaseRate",
-        "field": "input"
-      }
     }
   ],
   "quarantined": [
     {
-      "key": "mistral/devstral-small-2505",
+      "key": "groq/qwen/qwen3-32b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/magistral-small",
+      "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/mistral-large-2411",
+      "key": "togetherai/deepseek-ai/deepseek-v4-pro",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/devstral-small-2507",
+      "key": "togetherai/pearl-ai/gemma-4-31b-it",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/open-mixtral-8x7b",
+      "key": "togetherai/moonshotai/kimi-k2.7-code",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/devstral-medium-2507",
+      "key": "togetherai/moonshotai/kimi-k2.5",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/open-mistral-7b",
+      "key": "togetherai/moonshotai/kimi-k2.6",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/open-mixtral-8x22b",
+      "key": "togetherai/deepcogito/cogito-v2-1-671b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/mistral-nemo",
+      "key": "togetherai/openai/gpt-oss-20b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "mistral/pixtral-large-latest",
+      "key": "togetherai/google/gemma-3n-e4b-it",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "openai/gpt-5.1-codex",
+      "key": "togetherai/google/gemma-4-31b-it",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "openai/gpt-5.3-chat-latest",
+      "key": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "openai/o4-mini-deep-research",
+      "key": "openai/gpt-5.2-chat-latest",
       "flags": [
         "model_vanished"
       ]
@@ -142,19 +115,7 @@
       ]
     },
     {
-      "key": "openai/gpt-5.1-codex-mini",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/o3-deep-research",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "openai/gpt-5-codex",
+      "key": "openai/o4-mini-deep-research",
       "flags": [
         "model_vanished"
       ]
@@ -166,25 +127,37 @@
       ]
     },
     {
-      "key": "openai/gpt-5.2-chat-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
       "key": "openai/gpt-5.2-codex",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "groq/meta-llama/llama-4-scout-17b-16e-instruct",
+      "key": "openai/gpt-5.1-codex-mini",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "groq/qwen/qwen3-32b",
+      "key": "openai/gpt-5.3-chat-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "openai/gpt-5.1-codex",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "openai/gpt-5-codex",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "openai/o3-deep-research",
       "flags": [
         "model_vanished"
       ]
@@ -196,19 +169,19 @@
       ]
     },
     {
-      "key": "google/gemini-3-pro-preview",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
       "key": "google/gemini-2.0-flash",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "anthropic/claude-3-5-haiku-20241022",
+      "key": "google/gemini-3-pro-preview",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-1",
       "flags": [
         "model_vanished"
       ]
@@ -220,7 +193,43 @@
       ]
     },
     {
-      "key": "anthropic/claude-sonnet-4-20250514",
+      "key": "anthropic/claude-opus-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-opus-4-20250514",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-sonnet-4-0",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-sonnet-20240229",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-haiku-20241022",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-haiku-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "anthropic/claude-3-5-sonnet-20241022",
       "flags": [
         "model_vanished"
       ]
@@ -238,49 +247,7 @@
       ]
     },
     {
-      "key": "anthropic/claude-opus-4-0",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-5-sonnet-20241022",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-opus-4-1",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-7-sonnet-20250219",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-opus-4-20250514",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-5-haiku-latest",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-3-sonnet-20240229",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "anthropic/claude-sonnet-4-0",
+      "key": "anthropic/claude-sonnet-4-20250514",
       "flags": [
         "model_vanished"
       ]
@@ -292,79 +259,19 @@
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+      "key": "anthropic/claude-3-7-sonnet-20250219",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
+      "key": "deepseek/deepseek-reasoner",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/inkling",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/glm-5p1",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+      "key": "deepseek/deepseek-chat",
       "flags": [
         "model_vanished"
       ]
@@ -400,77 +307,158 @@
       ]
     },
     {
-      "key": "deepseek/deepseek-reasoner",
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p1",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "deepseek/deepseek-chat",
+      "key": "fireworks-ai/accounts/fireworks/models/glm-5p2",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/openai/gpt-oss-20b",
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p7-code",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/meta-llama/meta-llama-3-8b-instruct-lite",
+      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/google/gemma-4-31b-it",
+      "key": "fireworks-ai/accounts/fireworks/models/inkling",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/google/gemma-3n-e4b-it",
+      "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/moonshotai/kimi-k2.6",
+      "key": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/moonshotai/kimi-k2.7-code",
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/moonshotai/kimi-k2.5",
+      "key": "fireworks-ai/accounts/fireworks/models/qwen3p7-plus",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/pearl-ai/gemma-4-31b-it",
+      "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-flash",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/deepcogito/cogito-v2-1-671b",
+      "key": "fireworks-ai/accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
       "flags": [
         "model_vanished"
       ]
     },
     {
-      "key": "togetherai/deepseek-ai/deepseek-v4-pro",
+      "key": "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "fireworks-ai/accounts/fireworks/models/kimi-k2p6",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/open-mistral-7b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/devstral-medium-2507",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/devstral-small-2507",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/open-mixtral-8x22b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/open-mixtral-8x7b",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/mistral-nemo",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/devstral-small-2505",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/pixtral-large-latest",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/mistral-large-2411",
+      "flags": [
+        "model_vanished"
+      ]
+    },
+    {
+      "key": "mistral/magistral-small",
       "flags": [
         "model_vanished"
       ]
     }
   ],
-  "curated_drift": []
+  "curated_drift": [
+    {
+      "id": "openai/gpt-image-1.5",
+      "field": "image_output",
+      "curated": 32,
+      "other": 10,
+      "other_source": "models_dev"
+    },
+    {
+      "id": "openai/chatgpt-image-latest",
+      "field": "image_output",
+      "curated": 32,
+      "other": 10,
+      "other_source": "models_dev"
+    }
+  ]
 }

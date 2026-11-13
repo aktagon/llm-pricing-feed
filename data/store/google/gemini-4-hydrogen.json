@@ -1,0 +1,24 @@
+[
+  {
+    "key": "google/gemini-4-hydrogen",
+    "digest": "416beff8c7963d56",
+    "record": {
+      "id": "google/gemini-4-hydrogen",
+      "provider": "google",
+      "model": "gemini-4-hydrogen",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-12",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.5,
+      "output": 7.5,
+      "cache_read": 0.075,
+      "audio_input": 1.5,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-13T14:31:47.026Z"
+  }
+]
