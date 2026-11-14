@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-11-13T14:31:47.026Z",
-  "snapshot_date": "2026-11-13",
+  "observed_at": "2026-11-14T13:28:43.971Z",
+  "snapshot_date": "2026-11-14",
   "ingest_rejected_count": 2,
   "quarantined_count": 70,
   "ingest_rejections": [
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-latest",
+      "model": "voxtral-mini-tts-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -16,7 +16,7 @@
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-tts-latest",
+      "model": "voxtral-mini-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -447,14 +447,14 @@
   ],
   "curated_drift": [
     {
-      "id": "openai/gpt-image-1.5",
+      "id": "openai/chatgpt-image-latest",
       "field": "image_output",
       "curated": 32,
       "other": 10,
       "other_source": "models_dev"
     },
     {
-      "id": "openai/chatgpt-image-latest",
+      "id": "openai/gpt-image-1.5",
       "field": "image_output",
       "curated": 32,
       "other": 10,
