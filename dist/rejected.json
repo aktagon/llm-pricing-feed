@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-11-16T15:41:47.159Z",
-  "snapshot_date": "2026-11-16",
+  "observed_at": "2026-11-17T15:57:46.845Z",
+  "snapshot_date": "2026-11-17",
   "ingest_rejected_count": 3,
   "quarantined_count": 70,
   "ingest_rejections": [
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-tts-latest",
+      "model": "voxtral-mini-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -16,7 +16,7 @@
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-latest",
+      "model": "voxtral-mini-tts-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -456,6 +456,20 @@
   ],
   "curated_drift": [
     {
+      "id": "openai/chatgpt-image-latest",
+      "field": "image_output",
+      "curated": 32,
+      "other": 10,
+      "other_source": "models_dev"
+    },
+    {
+      "id": "openai/gpt-image-1.5",
+      "field": "image_output",
+      "curated": 32,
+      "other": 10,
+      "other_source": "models_dev"
+    },
+    {
       "id": "google/gemini-2.5-flash-image",
       "field": "image_output",
       "curated": 30,
@@ -470,13 +484,6 @@
       "other_source": "models_dev"
     },
     {
-      "id": "google/gemini-3.1-flash-lite-image",
-      "field": "image_output",
-      "curated": 30,
-      "other": 1.5,
-      "other_source": "models_dev"
-    },
-    {
       "id": "google/gemini-3-pro-image",
       "field": "image_output",
       "curated": 120,
@@ -484,17 +491,10 @@
       "other_source": "models_dev"
     },
     {
-      "id": "openai/gpt-image-1.5",
+      "id": "google/gemini-3.1-flash-lite-image",
       "field": "image_output",
-      "curated": 32,
-      "other": 10,
-      "other_source": "models_dev"
-    },
-    {
-      "id": "openai/chatgpt-image-latest",
-      "field": "image_output",
-      "curated": 32,
-      "other": 10,
+      "curated": 30,
+      "other": 1.5,
       "other_source": "models_dev"
     }
   ]
