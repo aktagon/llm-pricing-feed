@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.0",
-  "data_version": "2026-11-16",
+  "data_version": "2026-11-18",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -1649,6 +1649,42 @@
       "context_window": 1050000,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "openai/gpt-6.2-sol",
+      "provider": "openai",
+      "model": "gpt-6.2-sol",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "cache_write_5m": 2.5,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-18T15:37:13.464Z"
+    },
+    {
+      "id": "openai/gpt-6.2-astra",
+      "provider": "openai",
+      "model": "gpt-6.2-astra",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 8,
+      "output": 40,
+      "cache_read": 0.4,
+      "cache_write_5m": 10,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-18T15:37:13.464Z"
     },
     {
       "id": "openai/o1-pro",
