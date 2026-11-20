@@ -16,5 +16,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-23T11:35:54.625Z"
+  },
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+    "digest": "66009ceba1766c20",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-09-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.003,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-20T15:24:42.431Z"
   }
 ]

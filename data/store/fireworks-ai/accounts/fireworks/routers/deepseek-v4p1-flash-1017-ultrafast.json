@@ -19,5 +19,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-11-08T13:21:23.887Z"
+  },
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
+    "digest": "e7af8824ed4c6c2f",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.2,
+      "output": 4.8,
+      "cache_read": 0.024,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-20T15:24:42.431Z"
   }
 ]
