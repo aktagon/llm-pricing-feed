@@ -32,5 +32,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-18T09:18:07.574Z"
+  },
+  {
+    "key": "mistral/magistral-medium-latest",
+    "digest": "1fe607da6a7aa871",
+    "record": {
+      "id": "mistral/magistral-medium-latest",
+      "provider": "mistral",
+      "model": "magistral-medium-latest",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2025-03-20",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.5,
+      "output": 7.5,
+      "cache_read": 0.15,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-23T18:03:06.633Z"
   }
 ]

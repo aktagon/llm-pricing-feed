@@ -1,0 +1,23 @@
+[
+  {
+    "key": "togetherai/tencent/hy4",
+    "digest": "9c9db515b37963fc",
+    "record": {
+      "id": "togetherai/tencent/hy4",
+      "provider": "togetherai",
+      "model": "tencent/hy4",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.834,
+      "output": 2.501,
+      "cache_read": 0.042,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-23T18:03:06.633Z"
+  }
+]

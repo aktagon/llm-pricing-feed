@@ -1,0 +1,23 @@
+[
+  {
+    "key": "togetherai/meta-models/muse-glimmer-30b",
+    "digest": "592ac997156399fb",
+    "record": {
+      "id": "togetherai/meta-models/muse-glimmer-30b",
+      "provider": "togetherai",
+      "model": "meta-models/muse-glimmer-30b",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.35,
+      "output": 1.5,
+      "cache_read": 0.04,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-23T18:03:06.633Z"
+  }
+]
