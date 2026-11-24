@@ -19,5 +19,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-11-23T18:03:06.633Z"
+  },
+  {
+    "key": "togetherai/qwen/qwen4-max",
+    "digest": "2a8496fc846472a3",
+    "record": {
+      "id": "togetherai/qwen/qwen4-max",
+      "provider": "togetherai",
+      "model": "qwen/qwen4-max",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.5,
+      "output": 4.5,
+      "cache_read": 0.075,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-24T17:40:35.925Z"
   }
 ]

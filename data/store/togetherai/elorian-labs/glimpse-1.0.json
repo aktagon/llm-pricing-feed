@@ -1,0 +1,23 @@
+[
+  {
+    "key": "togetherai/elorian-labs/glimpse-1.0",
+    "digest": "f95e48ddd0c247da",
+    "record": {
+      "id": "togetherai/elorian-labs/glimpse-1.0",
+      "provider": "togetherai",
+      "model": "elorian-labs/glimpse-1.0",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 3,
+      "cache_read": 0.06,
+      "context_window": 262144,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-24T17:40:35.925Z"
+  }
+]

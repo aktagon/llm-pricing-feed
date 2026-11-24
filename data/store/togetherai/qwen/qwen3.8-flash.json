@@ -1,0 +1,22 @@
+[
+  {
+    "key": "togetherai/qwen/qwen3.8-flash",
+    "digest": "986473343616919",
+    "record": {
+      "id": "togetherai/qwen/qwen3.8-flash",
+      "provider": "togetherai",
+      "model": "qwen/qwen3.8-flash",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-26",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.47,
+      "context_window": 1000000,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-24T17:40:35.925Z"
+  }
+]

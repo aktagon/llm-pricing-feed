@@ -1,0 +1,23 @@
+[
+  {
+    "key": "togetherai/deepseek-ai/deepseek-v4.1-flash-1017-fast",
+    "digest": "34573c1b29cd36c6",
+    "record": {
+      "id": "togetherai/deepseek-ai/deepseek-v4.1-flash-1017-fast",
+      "provider": "togetherai",
+      "model": "deepseek-ai/deepseek-v4.1-flash-1017-fast",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.012,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-24T17:40:35.925Z"
+  }
+]

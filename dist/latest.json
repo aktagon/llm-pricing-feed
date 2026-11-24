@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.0",
-  "data_version": "2026-11-23",
+  "data_version": "2026-11-24",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -1398,14 +1398,18 @@
       "provider": "google",
       "model": "gemini-flash-lite-latest",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-07-21",
       "source_url": "https://models.dev/api.json",
       "input": 0.3,
       "output": 2.5,
       "cache_read": 0.03,
+      "audio_input": 0.3,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-24T17:40:35.925Z"
     },
     {
       "id": "google/gemini-nano-banana-2.1",
@@ -1759,14 +1763,18 @@
       "provider": "google",
       "model": "gemini-3.5-flash-lite",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-07-21",
       "source_url": "https://models.dev/api.json",
       "input": 0.3,
       "output": 2.5,
       "cache_read": 0.03,
+      "audio_input": 0.3,
       "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-24T17:40:35.925Z"
     },
     {
       "id": "google/gemini-4-argon",
@@ -2800,6 +2808,23 @@
       "observed_at": "2026-11-23T18:03:06.633Z"
     },
     {
+      "id": "togetherai/deepseek-ai/deepseek-v4.1-flash-1017-fast",
+      "provider": "togetherai",
+      "model": "deepseek-ai/deepseek-v4.1-flash-1017-fast",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 2.4,
+      "cache_read": 0.012,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-24T17:40:35.925Z"
+    },
+    {
       "id": "togetherai/deepseek-ai/deepseek-v4-flash-0731",
       "provider": "togetherai",
       "model": "deepseek-ai/deepseek-v4-flash-0731",
@@ -2904,12 +2929,12 @@
       ],
       "effective_date": "2026-11-16",
       "source_url": "https://models.dev/api.json",
-      "input": 1.05,
-      "output": 3.15,
-      "cache_read": 0.0525,
+      "input": 1.5,
+      "output": 4.5,
+      "cache_read": 0.075,
       "context_window": 1000000,
       "effective_date_kind": "published",
-      "observed_at": "2026-11-23T18:03:06.633Z"
+      "observed_at": "2026-11-24T17:40:35.925Z"
     },
     {
       "id": "togetherai/qwen/qwen3.5-9b",
@@ -2979,6 +3004,22 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "togetherai/qwen/qwen3.8-flash",
+      "provider": "togetherai",
+      "model": "qwen/qwen3.8-flash",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-26",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.47,
+      "context_window": 1000000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-24T17:40:35.925Z"
+    },
+    {
       "id": "togetherai/qwen/qwen3-235b-a22b-instruct-2507-tput",
       "provider": "togetherai",
       "model": "qwen/qwen3-235b-a22b-instruct-2507-tput",
@@ -3003,6 +3044,22 @@
       "context_window": 262144,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "togetherai/qwen/qwen3.7-plus",
+      "provider": "togetherai",
+      "model": "qwen/qwen3.7-plus",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-06-02",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.32,
+      "output": 1.28,
+      "context_window": 1000000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-24T17:40:35.925Z"
     },
     {
       "id": "togetherai/qwen/qwen2.5-7b-instruct-turbo",
@@ -3172,6 +3229,23 @@
       "context_window": 32000,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "togetherai/elorian-labs/glimpse-1.0",
+      "provider": "togetherai",
+      "model": "elorian-labs/glimpse-1.0",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.6,
+      "output": 3,
+      "cache_read": 0.06,
+      "context_window": 262144,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-24T17:40:35.925Z"
     },
     {
       "id": "togetherai/reflection/beam-1.0-501b-a23b",
