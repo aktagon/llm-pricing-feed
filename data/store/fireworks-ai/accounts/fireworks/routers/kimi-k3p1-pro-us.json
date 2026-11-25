@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/kimi-k3p1-pro-us",
+    "digest": "c14034817a752bef",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3p1-pro-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3p1-pro-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.5,
+      "output": 12.5,
+      "cache_read": 0.25,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-25T17:10:16.525Z"
+  }
+]

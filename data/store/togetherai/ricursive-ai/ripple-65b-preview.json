@@ -1,0 +1,23 @@
+[
+  {
+    "key": "togetherai/ricursive-ai/ripple-65b-preview",
+    "digest": "aad92f267b003d15",
+    "record": {
+      "id": "togetherai/ricursive-ai/ripple-65b-preview",
+      "provider": "togetherai",
+      "model": "ricursive-ai/ripple-65b-preview",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.2,
+      "output": 0.6,
+      "cache_read": 0.02,
+      "context_window": 131072,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-25T17:10:16.525Z"
+  }
+]

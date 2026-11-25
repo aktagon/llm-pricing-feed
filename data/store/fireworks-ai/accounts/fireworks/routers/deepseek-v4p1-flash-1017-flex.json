@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+    "digest": "b887ce6d12e16918",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.003,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-25T17:10:16.525Z"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.0",
-  "data_version": "2026-11-24",
+  "data_version": "2026-11-25",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -97,14 +97,17 @@
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/models/minimax-m3p1-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-10-19",
       "source_url": "https://models.dev/api.json",
       "input": 0.15,
       "output": 0.6,
       "cache_read": 0.015,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-23T11:35:54.625Z"
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/ember-1",
@@ -136,6 +139,23 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-11-08T13:21:23.887Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/models/qwen4-max",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/qwen4-max",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 1.5,
+      "output": 4.5,
+      "cache_read": 0.075,
+      "context_window": 262144,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/glm-5p2",
@@ -292,6 +312,23 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "fireworks-ai/accounts/fireworks/models/hy4-flash",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/hy4-flash",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.07,
+      "output": 0.281,
+      "cache_read": 0.003,
+      "context_window": 524288,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "fireworks-ai/accounts/fireworks/models/muse-spark-open",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/models/muse-spark-open",
@@ -318,6 +355,23 @@
       "context_window": 262144,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/models/ultramarine-1-flash-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/ultramarine-1-flash-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-12",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.03,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/gpt-oss-20b",
@@ -380,28 +434,34 @@
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/models/deepseek-v4p1-flash",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-09-10",
       "source_url": "https://models.dev/api.json",
       "input": 0.3,
       "output": 1.2,
       "cache_read": 0.006,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-18T09:18:07.574Z"
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
       "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
       "effective_date": "2026-10-17",
       "source_url": "https://models.dev/api.json",
       "input": 0.3,
       "output": 1.2,
       "cache_read": 0.006,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "effective_date_kind": "published",
-      "observed_at": "2026-10-19T13:10:38.952Z"
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/minimax-m2p7",
@@ -581,6 +641,23 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-09-10",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.45,
+      "output": 1.8,
+      "cache_read": 0.009,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "fireworks-ai/accounts/fireworks/routers/glm-latest",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/routers/glm-latest",
@@ -593,6 +670,23 @@
       "context_window": 1048573,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.45,
+      "output": 1.8,
+      "cache_read": 0.009,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-turbo",
@@ -609,6 +703,23 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-14",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.1,
+      "output": 6.6,
+      "cache_read": 0.39,
+      "context_window": 1048573,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "fireworks-ai/accounts/fireworks/routers/kimi-k2p6-fast",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/routers/kimi-k2p6-fast",
@@ -621,6 +732,23 @@
       "context_window": 262000,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3p1-pro-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3p1-pro-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.5,
+      "output": 12.5,
+      "cache_read": 0.25,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/routers/glm-5p2-fast",
@@ -652,6 +780,23 @@
       "context_window": 1000000,
       "effective_date_kind": "published",
       "observed_at": "2026-11-20T15:24:42.431Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-flex",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.6,
+      "cache_read": 0.003,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/routers/glm-flash-latest",
@@ -739,6 +884,23 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-11-16T15:41:47.159Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-07-16",
+      "source_url": "https://models.dev/api.json",
+      "input": 4.5,
+      "output": 22.5,
+      "cache_read": 0.45,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "groq/llama-3.3-70b-versatile",
@@ -2778,6 +2940,22 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "togetherai/prism-ml/ternary-bonsai-27b",
+      "provider": "togetherai",
+      "model": "prism-ml/ternary-bonsai-27b",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-07-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0,
+      "output": 0,
+      "context_window": 262144,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "togetherai/essentialai/rnj-1-instruct",
       "provider": "togetherai",
       "model": "essentialai/rnj-1-instruct",
@@ -3145,6 +3323,23 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "togetherai/ricursive-ai/ripple-65b-preview",
+      "provider": "togetherai",
+      "model": "ricursive-ai/ripple-65b-preview",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-04",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.2,
+      "output": 0.6,
+      "cache_read": 0.02,
+      "context_window": 131072,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "togetherai/google/gemma-4-31b-it",
@@ -4138,6 +4333,24 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "openai/gpt-6.2-sol-healthcare",
+      "provider": "openai",
+      "model": "gpt-6.2-sol-healthcare",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-24",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "cache_write_5m": 2.5,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "openai/gpt-5.1",
       "provider": "openai",
       "model": "gpt-5.1",
@@ -4836,6 +5049,23 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "openai/gpt-6.1-sol-healthcare",
+      "provider": "openai",
+      "model": "gpt-6.1-sol-healthcare",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-24",
+      "source_url": "https://models.dev/api.json",
+      "input": 2,
+      "output": 10,
+      "cache_read": 0.1,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "openai/gpt-6.1-sol",
       "provider": "openai",
       "model": "gpt-6.1-sol",
@@ -5001,6 +5231,24 @@
       "observed_at": "2026-06-23T13:31:24.070Z"
     },
     {
+      "id": "openai/gpt-6.2-astra-healthcare",
+      "provider": "openai",
+      "model": "gpt-6.2-astra-healthcare",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-24",
+      "source_url": "https://models.dev/api.json",
+      "input": 8,
+      "output": 40,
+      "cache_read": 0.4,
+      "cache_write_5m": 10,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
       "id": "openai/o4-mini",
       "provider": "openai",
       "model": "o4-mini",
@@ -5041,6 +5289,23 @@
       "context_window": 128000,
       "effective_date_kind": "published",
       "observed_at": "2026-06-23T13:31:24.070Z"
+    },
+    {
+      "id": "openai/gpt-6-astra-healthcare",
+      "provider": "openai",
+      "model": "gpt-6-astra-healthcare",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-24",
+      "source_url": "https://models.dev/api.json",
+      "input": 10,
+      "output": 50,
+      "cache_read": 1,
+      "context_window": 1050000,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-25T17:10:16.525Z"
     },
     {
       "id": "openai/gpt-4o-mini",

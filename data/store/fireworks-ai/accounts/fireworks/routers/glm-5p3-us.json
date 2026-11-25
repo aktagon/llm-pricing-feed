@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/glm-5p3-us",
+    "digest": "7cec8973f7b7ebe3",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-us",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-us",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-14",
+      "source_url": "https://models.dev/api.json",
+      "input": 2.1,
+      "output": 6.6,
+      "cache_read": 0.39,
+      "context_window": 1048573,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-25T17:10:16.525Z"
+  }
+]

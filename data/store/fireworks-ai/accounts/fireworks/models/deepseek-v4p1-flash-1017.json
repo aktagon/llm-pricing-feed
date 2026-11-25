@@ -16,5 +16,26 @@
       "effective_date_kind": "published"
     },
     "first_observed_at": "2026-10-19T13:10:38.952Z"
+  },
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "digest": "741fc7b1ceeacdea",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-17",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 1.2,
+      "cache_read": 0.006,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-25T17:10:16.525Z"
   }
 ]
