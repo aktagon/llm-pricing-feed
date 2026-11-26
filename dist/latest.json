@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3.0",
-  "data_version": "2026-11-25",
+  "data_version": "2026-11-26",
   "currency": "USD",
   "unit": "per_million_tokens",
   "models": [
@@ -170,6 +170,23 @@
       "context_window": 1048575,
       "effective_date_kind": "published",
       "observed_at": "2026-07-08T08:43:27.375Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/models/inkling-2-mini",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/inkling-2-mini",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-20",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.15,
+      "output": 0.5,
+      "cache_read": 0.015,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-26T16:51:34.530Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/models/minimax-m3",
@@ -565,6 +582,23 @@
       "observed_at": "2026-10-18T09:18:07.574Z"
     },
     {
+      "id": "fireworks-ai/accounts/fireworks/routers/kimi-k3p1-pro-ultrafast",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/kimi-k3p1-pro-ultrafast",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-10-23",
+      "source_url": "https://models.dev/api.json",
+      "input": 5,
+      "output": 25,
+      "cache_read": 0.5,
+      "context_window": 1048576,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-26T16:51:34.530Z"
+    },
+    {
       "id": "fireworks-ai/accounts/fireworks/routers/kimi-fast-latest",
       "provider": "fireworks-ai",
       "model": "accounts/fireworks/routers/kimi-fast-latest",
@@ -639,6 +673,23 @@
       "context_window": 1048572,
       "effective_date_kind": "published",
       "observed_at": "2026-10-18T09:18:07.574Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-flash-flex",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-flash-flex",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-26",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.075,
+      "output": 0.25,
+      "cache_read": 0.015,
+      "context_window": 1048573,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-26T16:51:34.530Z"
     },
     {
       "id": "fireworks-ai/accounts/fireworks/routers/deepseek-v4p1-flash-us",
@@ -901,6 +952,23 @@
       "context_window": 1048576,
       "effective_date_kind": "published",
       "observed_at": "2026-11-25T17:10:16.525Z"
+    },
+    {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-flex",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-flex",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-14",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.7,
+      "output": 2.2,
+      "cache_read": 0.13,
+      "context_window": 1048573,
+      "effective_date_kind": "published",
+      "observed_at": "2026-11-26T16:51:34.530Z"
     },
     {
       "id": "groq/llama-3.3-70b-versatile",

@@ -1,6 +1,6 @@
 {
-  "observed_at": "2026-11-25T17:10:16.525Z",
-  "snapshot_date": "2026-11-25",
+  "observed_at": "2026-11-26T16:51:34.530Z",
+  "snapshot_date": "2026-11-26",
   "ingest_rejected_count": 2,
   "quarantined_count": 114,
   "ingest_rejections": [
@@ -711,10 +711,10 @@
   ],
   "curated_drift": [
     {
-      "id": "google/gemini-3.1-flash-lite-image",
+      "id": "google/gemini-3-pro-image",
       "field": "image_output",
-      "curated": 30,
-      "other": 1.5,
+      "curated": 120,
+      "other": 12,
       "other_source": "models_dev"
     },
     {
@@ -725,10 +725,10 @@
       "other_source": "models_dev"
     },
     {
-      "id": "google/gemini-3-pro-image",
+      "id": "google/gemini-3.1-flash-lite-image",
       "field": "image_output",
-      "curated": 120,
-      "other": 12,
+      "curated": 30,
+      "other": 1.5,
       "other_source": "models_dev"
     },
     {

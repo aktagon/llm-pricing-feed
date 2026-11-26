@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/routers/glm-5p3-flex",
+    "digest": "3faf417590cd624b",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/routers/glm-5p3-flex",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/routers/glm-5p3-flex",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-08-14",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.7,
+      "output": 2.2,
+      "cache_read": 0.13,
+      "context_window": 1048573,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-26T16:51:34.530Z"
+  }
+]
