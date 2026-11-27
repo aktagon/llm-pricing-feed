@@ -1,13 +1,13 @@
 {
-  "observed_at": "2026-11-26T16:51:34.530Z",
-  "snapshot_date": "2026-11-26",
+  "observed_at": "2026-11-27T16:37:15.146Z",
+  "snapshot_date": "2026-11-27",
   "ingest_rejected_count": 2,
-  "quarantined_count": 114,
+  "quarantined_count": 112,
   "ingest_rejections": [
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-latest",
+      "model": "voxtral-mini-tts-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -16,7 +16,7 @@
     {
       "source": "models_dev",
       "provider": "mistral",
-      "model": "voxtral-mini-tts-latest",
+      "model": "voxtral-mini-latest",
       "error": {
         "kind": "MissingMediaRate",
         "model_kind": "audio"
@@ -43,12 +43,6 @@
       ]
     },
     {
-      "key": "fireworks-ai/accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
       "key": "fireworks-ai/accounts/fireworks/models/gpt-oss-120b",
       "flags": [
         "model_vanished"
@@ -62,12 +56,6 @@
     },
     {
       "key": "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro",
-      "flags": [
-        "model_vanished"
-      ]
-    },
-    {
-      "key": "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4",
       "flags": [
         "model_vanished"
       ]
@@ -711,31 +699,10 @@
   ],
   "curated_drift": [
     {
-      "id": "google/gemini-3-pro-image",
+      "id": "openai/gpt-image-1.5",
       "field": "image_output",
-      "curated": 120,
-      "other": 12,
-      "other_source": "models_dev"
-    },
-    {
-      "id": "google/gemini-2.5-flash-image",
-      "field": "image_output",
-      "curated": 30,
-      "other": 2.5,
-      "other_source": "models_dev"
-    },
-    {
-      "id": "google/gemini-3.1-flash-lite-image",
-      "field": "image_output",
-      "curated": 30,
-      "other": 1.5,
-      "other_source": "models_dev"
-    },
-    {
-      "id": "google/gemini-3.1-flash-image",
-      "field": "image_output",
-      "curated": 60,
-      "other": 3,
+      "curated": 32,
+      "other": 10,
       "other_source": "models_dev"
     },
     {
@@ -746,10 +713,31 @@
       "other_source": "models_dev"
     },
     {
-      "id": "openai/gpt-image-1.5",
+      "id": "google/gemini-2.5-flash-image",
       "field": "image_output",
-      "curated": 32,
-      "other": 10,
+      "curated": 30,
+      "other": 2.5,
+      "other_source": "models_dev"
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "field": "image_output",
+      "curated": 120,
+      "other": 12,
+      "other_source": "models_dev"
+    },
+    {
+      "id": "google/gemini-3.1-flash-image",
+      "field": "image_output",
+      "curated": 60,
+      "other": 3,
+      "other_source": "models_dev"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-image",
+      "field": "image_output",
+      "curated": 30,
+      "other": 1.5,
       "other_source": "models_dev"
     }
   ]

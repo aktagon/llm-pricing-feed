@@ -1,0 +1,23 @@
+[
+  {
+    "key": "fireworks-ai/accounts/fireworks/models/inkling-2-small",
+    "digest": "e22332f280266942",
+    "record": {
+      "id": "fireworks-ai/accounts/fireworks/models/inkling-2-small",
+      "provider": "fireworks-ai",
+      "model": "accounts/fireworks/models/inkling-2-small",
+      "kind": "chat",
+      "output_modalities": [
+        "text"
+      ],
+      "effective_date": "2026-11-12",
+      "source_url": "https://models.dev/api.json",
+      "input": 0.3,
+      "output": 1,
+      "cache_read": 0.03,
+      "context_window": 1048576,
+      "effective_date_kind": "published"
+    },
+    "first_observed_at": "2026-11-27T16:37:15.146Z"
+  }
+]
